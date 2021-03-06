@@ -1,0 +1,31 @@
+<p>directive-ex works!</p>
+<div *ngIf="arrStudent.length == 0; else elseBlock">
+  Hello ngIf!
+</div>
+<!--<ng-template #thenBlock>-->
+<!--  <p>Not found student!</p>-->
+<!--</ng-template>-->
+<ng-template #elseBlock>
+  <table>
+    <tr>
+      <th>Id</th>
+      <th>Nam</th>
+    </tr>
+
+<!--    for (Student student : arrSTudent)-->
+    <tr *ngFor="let student of arrStudent">
+      <td>
+        {{student.id}}
+      </td>
+      <td>
+        {{student.name}}
+      </td>
+    </tr>
+  </table>
+</ng-template>
+<!--<ng-template [ngIf]="isShow">abc</ng-template>-->
+
+<!--<p [ngClass]="{'text-red': false, 'text-green': isShowGreen}" [>Hello hahaha</p>-->
+<!--<button (click)="changeGreen()">Change color</button>-->
+<!--&lt;!&ndash;<p style="background-color: {{color}}">Hello Thien</p>&ndash;&gt;-->
+

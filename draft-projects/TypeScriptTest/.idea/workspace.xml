@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="934b0fc9-765e-47f9-a8cb-886aa73c9c32" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZESkhxSuMFCLsr32eIMGXcj7fD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../typescript-demo" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="ts.external.directory.path" value="D:\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="934b0fc9-765e-47f9-a8cb-886aa73c9c32" name="Default Changelist" comment="" />
+      <created>1584402904814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584402904814</updated>
+      <workItem from="1584402906248" duration="355000" />
+      <workItem from="1584403315748" duration="54000" />
+      <workItem from="1584403372057" duration="710000" />
+      <workItem from="1584411969161" duration="5368000" />
+      <workItem from="1584438164757" duration="394000" />
+      <workItem from="1584440874715" duration="11000" />
+      <workItem from="1584440948820" duration="3000" />
+      <workItem from="1584456912908" duration="691000" />
+      <workItem from="1584498119688" duration="1224000" />
+      <workItem from="1584506847567" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hello.js" />
+        <option value="$PROJECT_DIR$/convertVar.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="195" key="FileChooserDialogImpl" timestamp="1584506941439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1181" y="278" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584403249324" />
+    <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584459170076" />
+    <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584506941439" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1584428372015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584428372015" />
+    <state x="-1243" y="331" key="jetbrains.nodejs.interpreters-dialog" timestamp="1584403258643">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1243" y="331" key="jetbrains.nodejs.interpreters-dialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584403258643" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584415280755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584415280755" />
+  </component>
+</project>

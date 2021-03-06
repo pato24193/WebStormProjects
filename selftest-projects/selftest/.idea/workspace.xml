@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcedd5c7-9abb-4691-a0f8-4cc5e7953d44" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hETDziFMqscqhDrUgMrbSTo5OL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../a10i/a10i-review" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\selftest-projects\selftest\img" />
+      <recent name="D:\WebStormProjects\selftest-projects\selftest" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcedd5c7-9abb-4691-a0f8-4cc5e7953d44" name="Default Changelist" comment="" />
+      <created>1599575135668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599575135668</updated>
+      <workItem from="1599575137869" duration="1667000" />
+      <workItem from="1599613886595" duration="1248000" />
+      <workItem from="1599655893831" duration="594000" />
+      <workItem from="1599700078141" duration="593000" />
+      <workItem from="1599743308412" duration="593000" />
+      <workItem from="1599786433241" duration="591000" />
+      <workItem from="1599874925420" duration="593000" />
+      <workItem from="1599922354964" duration="595000" />
+      <workItem from="1600045881045" duration="854000" />
+      <workItem from="1600090667384" duration="591000" />
+      <workItem from="1600132095204" duration="1194000" />
+      <workItem from="1600218663504" duration="592000" />
+      <workItem from="1600266273412" duration="592000" />
+      <workItem from="1600305671531" duration="679000" />
+      <workItem from="1600479395680" duration="594000" />
+      <workItem from="1600610899051" duration="747000" />
+      <workItem from="1606876077447" duration="1239000" />
+      <workItem from="1608214975663" duration="1080000" />
+      <workItem from="1608246716432" duration="92000" />
+      <workItem from="1608283296619" duration="1201000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="122" key="FileChooserDialogImpl" timestamp="1608290420156">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="461" y="122" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1608290420156" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608246794733" />
+  </component>
+</project>

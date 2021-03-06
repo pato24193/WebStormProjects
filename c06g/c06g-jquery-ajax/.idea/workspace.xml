@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efd85c03-92f5-4a0d-8ccd-682650ffd44b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jX2yP5L9MrDqHMXCMYwKtIjD5C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\c06g\c06g-jquery-ajax" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efd85c03-92f5-4a0d-8ccd-682650ffd44b" name="Default Changelist" comment="" />
+      <created>1603936369293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603936369293</updated>
+      <workItem from="1603936371111" duration="6349000" />
+      <workItem from="1603980866580" duration="657000" />
+      <workItem from="1604020374389" duration="9000" />
+      <workItem from="1604154887879" duration="591000" />
+      <workItem from="1604220394543" duration="595000" />
+      <workItem from="1604271264388" duration="655000" />
+      <workItem from="1604279290221" duration="1187000" />
+      <workItem from="1604357953422" duration="590000" />
+      <workItem from="1604366132427" duration="595000" />
+      <workItem from="1604406724727" duration="638000" />
+      <workItem from="1604452527626" duration="1783000" />
+      <workItem from="1604544473968" duration="1217000" />
+      <workItem from="1609733783480" duration="675000" />
+      <workItem from="1609809215750" duration="593000" />
+      <workItem from="1609895737201" duration="592000" />
+      <workItem from="1609981635815" duration="592000" />
+      <workItem from="1610068196674" duration="1186000" />
+      <workItem from="1610232690603" duration="1184000" />
+      <workItem from="1610328032173" duration="703000" />
+      <workItem from="1610414053427" duration="589000" />
+      <workItem from="1610462866986" duration="590000" />
+      <workItem from="1610500183791" duration="1184000" />
+      <workItem from="1610545914147" duration="1182000" />
+      <workItem from="1610586663691" duration="1190000" />
+      <workItem from="1610673376727" duration="593000" />
+      <workItem from="1610932246470" duration="594000" />
+      <workItem from="1610982192508" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1610982253990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610982253990" />
+  </component>
+</project>

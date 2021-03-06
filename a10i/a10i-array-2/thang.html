@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" id="btnDisplay" value="Show" onclick="show();" />
+<input type="button" id="btnAddMore" value="Chèn cách 1" onclick="chen1();" />
+<input type="button" id="btnAddMore" value="Chèn cách 2" onclick="chen2();" />
+<p id="result"></p>
+<div id="result"></div>
+<script>
+    let a = [];
+    let input = parseInt(prompt("Muốn nhập vào bao nhiêu phần tử"));
+    for (let i = 0; i < input; i++) {
+        a[i] = parseInt(prompt("Nhập vào phần tử " + i));
+    }
+    function chen1() {
+        let index = parseInt(prompt("Bạn muốn nhập vào vị trí thứ mấy "))
+        let e = parseInt(prompt("Nhập số bạn muốn chèn vào"))
+        a.splice(index, 0, e)
+    }
+    function chen2() {
+        let index = parseInt(prompt("Bạn muốn nhập vào vị trí thứ mấy "))
+        let e = parseInt(prompt("Nhập số bạn muốn chèn vào"))
+        for (let i = input; i >= index; i--) {
+            a[i] = a[i-1]
+        }
+        a[index] = e
+        input++
+    }
+    function show() {
+        let e = "<hr/>";
+        for (let i = 0; i < a.length; i++) {
+            e += "Element " + i + " = " + a[i] + "<br/>";
+        }
+        document.getElementById("result").innerHTML = e;
+    }
+</script>
+</body>
+</html>

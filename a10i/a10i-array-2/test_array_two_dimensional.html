@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ];
+
+    for (let i = 0; i < a.length; i++) {
+        for (let j = 0; j < a[i].length; j++) {
+            a[i][j] = parseInt(prompt("a " + i + ", " + j + ": "));
+        }
+    }
+
+
+    for (let i = 0; i < a.length; i++) {
+        // for (let j = 0; j < a[i].length; j++) {
+        //     console.log("a " + i + ", " + j + ": " + a[i][j]);
+        // }
+        console.log(a[i]);
+    }
+
+    // console.log(a.length);
+</script>
+</body>
+</html>

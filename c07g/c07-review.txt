@@ -1,0 +1,39 @@
+1. Các loại thẻ html thông dụng
+	<form action="/duong_dan_server" method="get/post">
+		<input type="text">
+		<input type="password">
+	<button>
+	
+	<table>
+	th: table head
+	tr: table row
+	td: table data
+	
+	<img src=""/>
+	
+	<div>
+		
+	<p> & <span>
+	
+	<a>
+	
+	<audio> .mp3, mv4a...
+	
+	<video> .mp4, .flv
+	 https://www.w3schools.com/tags/ref_av_dom.asp
+	
+	Text formatter:
+	 https://www.w3schools.com/html/html_formatting.asp
+
+
+2. Độ ưu tiên của các toán tử trong cùng 1 biểu thức
+
+++, --
+* /: Toán tử số học
++ -: Toán tử số học
+<, >, <=, >=: Toán tử so sánh -> true, false
+&&: Toán tử logic
+||: Toán tử logic
+=: Toán tử gán
+
+3. Các loại if và switch case

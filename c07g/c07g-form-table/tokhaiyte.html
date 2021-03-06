@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tờ khai y tế</title>
+</head>
+<body>
+    <form action="/duong_dan_den_server" method="get">
+        <label for="fullNameId">Họ và tên</label>
+        <input id="fullNameId" type="text" name="fullName" value=""/><br><br>
+        <p>Giới tính</p>
+        <input type="radio" name="gender" value="male" />
+        <label>Nam</label>
+        <input type="radio" name="gender" value="female" />
+        <label>Nữ</label><br><br>
+        Bạn đang sinh sống ở
+        <select name="city">
+            <option value="dn">Đà Nẵng</option>
+            <option value="hcm">Hồ Chí Minh</option>
+            <option value="hn">Hà Nội</option>
+            <option value="na">Nghệ An</option>
+        </select><br><br>
+        <label>Ngày sinh</label>
+        <input type="date" name="dateOfBirth"><br><br>
+        <label>Trong vòng 21 ngày, bạn có triệu chứng gì dưới đấy:</label><br><br>
+        <input type="checkbox" name="status" value="Sot"> Sốt
+        <input type="checkbox" name="status" value="Ho"> Ho
+        <input type="checkbox" name="status" value="Kho tho"> Khó thở
+        <br><br>
+<!--        <input type="hidden" name="giaTriNguoiDungKhongThay" value="dangkyhocvien" />-->
+        <input type="submit" value="Xác nhận">
+        <input type="reset" value="Khôi phục">
+    </form>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        .row {
+            clear: both;
+        }
+        [class*="col-"] {
+            float: left;
+            padding: 5px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+
+        .header {
+            background-color: deepskyblue;
+            color: white;
+            padding: 15px;
+        }
+
+        .menu {
+            list-style-type: none;
+        }
+
+        .menu li {
+            background-color: violet;
+            margin-bottom: 5px;
+            color: white;
+            padding: 5px;
+        }
+
+        .menu li:hover {
+            background-color: #9933cc;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            <div class="header">
+                Header
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <ul class="menu">
+                <li>Home</li>
+                <li>Page 1</li>
+                <li>Page 2</li>
+                <li>Page 3</li>
+            </ul>
+        </div>
+        <div class="col-9">
+            <div class="body">
+                <h3>Title</h3>
+                <p>Hello world! My name is C0420G1</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <ul class="menu">
+                <li>Home</li>
+                <li>Page 1</li>
+                <li>Page 2</li>
+                <li>Page 3</li>
+            </ul>
+        </div>
+        <div class="col-9">
+            <div class="body">
+                <h3>Title</h3>
+                <p>Hello world! My name is C0420G1</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

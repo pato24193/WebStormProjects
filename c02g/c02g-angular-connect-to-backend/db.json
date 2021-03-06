@@ -1,0 +1,43 @@
+{
+  "studentList": [
+    {
+      "id": 1,
+      "name": "Tien",
+      "dateOfBirth": "2k",
+      "type" : {
+        "id": 1,
+
+      }
+    },
+    {
+      "id": 2,
+      "name": "Long",
+      "dateOfBirth": "1999"
+    },
+    {
+      "id": 3,
+      "name": "Khanh",
+      "dateOfBirth": "2k1"
+    },
+    {
+      "id": 5,
+      "name": "Nguyen",
+      "dateOfBirth": "23423"
+    },
+    {
+      "id": 6,
+      "name": "abc",
+      "dateOfBirth": "1223"
+    },
+    {
+      "id": 7,
+      "name": "abc",
+      "dateOfBirth": "1999"
+    },
+    {
+      "id": 935,
+      "name": "abc",
+      "dateOfBirth": "1999"
+    }
+  ]
+}

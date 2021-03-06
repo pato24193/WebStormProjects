@@ -1,0 +1,22 @@
+BEGIND
+	INPUT N
+	count = 0
+	DECLARE array[N]
+
+	WHILE (count < N)
+	DO
+		INPUT array[count]		
+		count++;
+	END DO
+
+	count = 1 
+	max = array[0]
+	WHILE  (count < N)
+	DO
+		IF array[count] > max
+			max = array[count]	
+		count++;
+	END DO
+
+	DISPLAY "The greatest number is " + max;
+END

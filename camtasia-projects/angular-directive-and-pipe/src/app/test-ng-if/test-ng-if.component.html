@@ -1,0 +1,29 @@
+<p>test-ng-if works!</p>
+
+<input type="checkbox" [(ngModel)]="showMe">
+
+<p *ngIf="showMe">
+  Block if
+</p>
+<p *ngIf="!showMe">
+  Block not if
+</p>
+<hr>
+<p *ngIf="showMe; else elseBlock">
+  Block if
+</p>
+<ng-template #elseBlock>
+  Block else
+</ng-template>
+<hr>
+<p *ngIf="showMe; then thenBlock2 else elseBlock2">
+  Not show
+</p>
+
+<ng-template #thenBlock2>
+  Block then
+</ng-template>
+
+<ng-template #elseBlock2>
+  Block else
+</ng-template>

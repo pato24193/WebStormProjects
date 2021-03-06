@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="convertMoney.js"></script>
+</head>
+<body>
+    <form name="formMoney" onsubmit="convertMoney(); return false;">
+        <table>
+            <tr>
+                <th>Amount</th>
+                <th>From Currency</th>
+                <th>To Currency</th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <td>
+                    <input name="money" type="text" />
+                </td>
+                <td>
+                    <select name="fromCur">
+                        <option value="vn">VietNam</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="toCur">
+                        <option value="usd">USD</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="submit" value="Convert"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4" id="result"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

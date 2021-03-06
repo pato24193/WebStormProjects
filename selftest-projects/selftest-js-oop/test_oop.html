@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script>
+        class Person {
+            constructor(id, name, dateOfBirth) {
+                this.id = id;
+                this.name = name;
+                this.dateOfBirth = dateOfBirth;
+            }
+
+        }
+
+        class Student extends Person {
+            constructor(id, name, dateOfBirth, schoolName) {
+                super(id, name, dateOfBirth);
+                this.schoolName = schoolName;
+            }
+        }
+
+        let student = new Student(1, "Tien", "2k", "Hoa Lu school");
+        console.log(student.schoolName);
+    </script>
+</body>
+</html>

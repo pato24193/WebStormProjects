@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+</head>
+<body>
+    <canvas id="divShape" width="500" height="500"></canvas>
+    <script>
+        let canvas = document.getElementById("divShape");
+        let context = canvas.getContext("2d");
+
+        context.arc(100, 100, 70, 0, Math.PI);
+        context.stroke();
+        context.fillStyle = "red";
+        context.fill();
+
+        // context.rect(100, 100, 200, 50);
+        // context.stroke();
+        // context.fillStyle = "blue";
+        // context.fill();
+
+        // context.fillStyle = "yellow";
+        // context.fillRect(100, 100, 200, 50);
+
+        // context.font = "50pt Times New Roman";
+        // context.fillText("Hello Text", 100, 100);
+
+    </script>
+</body>
+</html>

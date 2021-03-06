@@ -1,0 +1,15 @@
+<p>test-custom-pipe works!</p>
+
+<p>
+  F: <input type="text" [(ngModel)]="fValue">
+</p>
+<p>
+  C: {{ fValue | tempConverter: 'C'}}
+</p>
+
+<p>
+  C: <input type="text" [(ngModel)]="cValue">
+</p>
+<p>
+  F: {{ cValue | tempConverter: 'F' }}
+</p>

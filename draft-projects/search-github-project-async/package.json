@@ -1,0 +1,17 @@
+{
+  "name": "search-github-project-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "use-async.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run server:dev",
+    "server": "npm run server:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0"
+  }
+}

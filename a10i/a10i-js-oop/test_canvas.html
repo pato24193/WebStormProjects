@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <canvas id="canvasShape" height="500" width="1000"></canvas>
+    <script>
+        let canvasS = document.getElementById("canvasShape");
+        let context = canvasS.getContext("2d");
+
+        // arc(toa do x, toa do y, ban kinh, diem bat dau, diem ket thuc)
+        // context.arc(200, 200, 150, 0, 2 * Math.PI);
+        // context.stroke();
+        // context.fillStyle = "blue";
+        // context.fill();
+
+        // C1
+        // rect (x, y, width, height)
+        // context.rect(200, 200, 150, 300);
+        // context.stroke();
+        // context.fillStyle = "red";
+        // context.fill();
+
+        // C2
+        // context.fillStyle = "red";
+        // context.fillRect(200, 200, 150, 300);
+
+        // text
+        // context.font = "50pt Cambria";
+        context.font = "50pt Times New Roman";
+        context.fillStyle = "red";
+        context.fillText("Hello A1020I1", 200, 200);
+
+    </script>
+</body>
+</html>

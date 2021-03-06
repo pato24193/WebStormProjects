@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Student {
+
+        constructor(id, name, dateOfBirth) {
+            this.id = id;
+            this.name = name;
+            this.dateOfBirth = dateOfBirth;
+        }
+
+        study(subject) {
+            console.log(this.name + " dang hoc mon " + subject);
+        }
+
+        play(game) {
+            console.log(this.name + " dang choi mon " + game);
+        }
+    }
+
+    let a = new Student(123, "thuan", "11/12/2020");
+    a.study("JavaScript");
+    a.play("LOL");
+
+</script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*.col-1 {width: 8.33%;}*/
+        /*.col-2 {width: 16.66%;}*/
+        /*.col-3 {width: 25%;}*/
+        /*.col-4 {width: 33.33%;}*/
+        /*.col-5 {width: 41.66%;}*/
+        /*.col-6 {width: 50%;}*/
+        /*.col-7 {width: 58.33%;}*/
+        /*.col-8 {width: 66.66%;}*/
+        /*.col-9 {width: 75%;}*/
+        /*.col-10 {width: 83.33%;}*/
+        /*.col-11 {width: 91.66%;}*/
+        /*.col-12 {width: 100%;}*/
+
+        [class *= 'col-'] {
+            float: left;
+            padding: 15px;
+            width: 100%;
+        }
+
+        .row::after {
+            clear: both;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            color: white;
+            background-color: deepskyblue;
+            padding: 15px;
+        }
+
+        .menu > ul {
+            list-style-type: none;
+        }
+
+        .menu > ul > li {
+            background-color: greenyellow;
+            color: white;
+            padding: 15px;
+            margin-bottom: 5px;
+        }
+
+        .menu > ul > li:hover {
+            background-color: green;
+        }
+
+        .right-panel {
+            background-color: greenyellow;
+            corlor: white;
+            padding: 15px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            /*[class *= 'col-'] {*/
+            /*    width: 100%;*/
+            /*}*/
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            <div class="header">
+                Header
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <div class="menu">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-6">
+            <h2>Hello World</h2>
+            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a
+                paragraph is a group of at least five sentences, a paragraph is</p>
+        </div>
+        <div class="col-3">
+            <div class="right-panel">
+                <h2>Hello World</h2>
+                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a
+                    paragraph is a group of at least five sentences, a paragraph is</p>
+                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a
+                    paragraph is a group of at least five sentences, a paragraph is</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

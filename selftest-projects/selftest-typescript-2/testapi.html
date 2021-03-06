@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //code 1
+    fetch('https://api.github.com/search/users?q=thienphamIT1907')
+        .then(response => response.json())
+        .then(data => console.log(data));
+    //code 2
+    fetch('https://api.github.com/search/users?q=thienphamIT1907')
+        .then(response => response.json())
+        .then(a => console.log(a));
+    fetch('https://api.github.com/search/users?q=thienphamIT1907')
+        .then(res => {
+            return res.json();
+        })
+        .then(data => {
+            console.log(data);
+        })
+
+</script>
+</body>
+</html>

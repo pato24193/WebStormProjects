@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test JQuery</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <h3 id="hello">Hello JQuery!</h3>
+    <button id="btnToggle">Toggle</button>
+    <button id="btnFade">Fade</button>
+    <button id="btnSlide">Slide</button>
+    <img id="book" src="book.png" alt="" width="100" height="123">
+
+    <script>
+        $(document).ready(function() {
+            $("#btnToggle").click(function() {
+                $("#hello").toggle();
+            });
+            $("#btnFade").click(function() {
+                $("#hello").fadeToggle();
+            });
+            $("#btnSlide").click(function() {
+                $("#hello").slideToggle();
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="calculator.js"></script>
+    <style>
+        button {
+            width: 32px;
+            height: 28px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input id="inputOutput" type="text" style="text-align: right" readonly/>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="display('1')">1</button></td>
+            <td><button onclick="display('2')">2</button></td>
+            <td><button onclick="display('3')">3</button></td>
+            <td><button onclick="display('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('4')">4</button></td>
+            <td><button onclick="display('5')">5</button></td>
+            <td><button onclick="display('6')">6</button></td>
+            <td><button onclick="display('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('7')">7</button></td>
+            <td><button onclick="display('8')">8</button></td>
+            <td><button onclick="display('9')">9</button></td>
+            <td><button onclick="display('x')">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('C')">C</button></td>
+            <td><button onclick="display('0')">0</button></td>
+            <td><button onclick="display('=')">=</button></td>
+            <td><button onclick="display('/')">/</button></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+
+        function testDay(numDay) {
+
+            if (numDay % 2 === 0) {
+                return "Ngay chan";
+            } else {
+                return "Ngay le";
+            }
+        }
+
+        function testDayNoReturn(numDay) {
+            if (numDay % 2 === 0) {
+                console.log("Ngay chan");
+            } else {
+                console.log("Ngay le");
+            }
+        }
+
+        let day = prompt("Please input day: ");
+        let numberDay = 0;
+
+        switch (day) {
+            case "mon":
+                console.log("Thu 2");
+                numberDay = 2;
+
+                // console.log(testDay(numberDay));
+                testDayNoReturn(numberDay);
+                break;
+            case "tue":
+                console.log("Thu 3");
+                numberDay = 3;
+
+                // console.log(testDay(numberDay));
+                testDayNoReturn(numberDay);
+                break;
+            default:
+                console.log("Thu 4");
+                numberDay = 4;
+
+                // console.log(testDay(numberDay));
+                testDayNoReturn(numberDay);
+                break;
+        }
+    </script>
+</body>
+</html>

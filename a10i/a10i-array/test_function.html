@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let listA10 = ["Danh", "Cuong", "Thanh", "Ngoc"];
+    // console.log(listA10.join("*"));
+    // console.log("After 1: " + listA10);
+    // console.log(listA10.reverse());
+    // console.log("After 2: " + listA10);
+
+    // let  a = [33, 4, 1111, 222];
+    // console.log(a.sort());
+
+    // Sap xep tang dan
+    let  a = [33, 4, 1111, 222];
+    a.sort(function(a, b) {
+        return b - a;
+    });
+    console.log(a);
+</script>
+</body>
+</html>

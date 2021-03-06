@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="900" height="900"></canvas>
+    <script>
+        let canvas = document.getElementById("myCanvas");
+        let context = canvas.getContext("2d");
+        // context.arc(300, 350, 300, 0, 2 * Math.PI);
+        // context.stroke();
+        // context.fillStyle = "red";
+        // context.fill();
+
+        context.rect(50, 50, 300, 150);
+        context.stroke();
+        context.fillStyle = "green";
+        context.fill();
+
+        context.font = "50px Cambria";
+        context.fillText("C0720G1", 50, 50);
+    </script>
+</body>
+</html>

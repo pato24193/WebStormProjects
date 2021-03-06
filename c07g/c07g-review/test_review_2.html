@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Linh
+    let a = 1;
+    let n;
+    for (let i = 0; i < 30; a++) {
+        n = false;
+        for (let b = 2; b < a; b++) {
+            console.log(b);
+            if (a % b === 0) {
+                n = true;
+            }
+        }
+        if (n === false) {
+            document.write(a + "<br>");
+            i++;
+            console.log(a, i);
+        }
+    }
+
+</script>
+</body>
+</html>

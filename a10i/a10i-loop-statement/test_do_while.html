@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        // 3. Viết game Đoán số đơn giản từ 1 -> 100:
+        // - Cho trước một số bất kỳ là M.
+        // - Cho phép người dùng nhập vào một số N bất kỳ, nếu N
+        // trùng khớp với M thì kết thúc chương trình và hiển thị
+        // là "Congratulation!". Ngược lại thì báo "Wrong!" và cho người dùng nhập tiếp.
+
+        let m = 5;
+        do {
+            let n = parseInt(prompt("Please input n"));
+            if (n === m) {
+                alert("Congratulation!");
+                break;
+            } else {
+                alert("Wrong");
+            }
+        } while(true);
+
+        // let m = 5;
+        // let n;
+        // do {
+        //     n = parseInt(prompt("Please input n"));
+        //     if (n === m) {
+        //         alert("Congratulation!");
+        //     } else {
+        //         alert("Wrong");
+        //     }
+        // } while(n !== m);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="1000" height="1000"></canvas>
+    <script>
+        // let c = document.getElementById("myCanvas");
+        // let ctx = c.getContext("2d");
+        // ctx.beginPath();
+        // ctx.arc(100, 150, 100, 0, 2 * Math.PI);
+        // ctx.stroke();
+        // ctx.fillStyle = "#ff0000";
+        // ctx.fillRect(50, 50, 200, 100);
+
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(100, 100, 50, 0, 2 * Math.PI);
+        ctx.stroke();
+
+        ctx.fillStyle = "#ff0000";
+        ctx.fillRect(150, 100, 200, 50);
+
+    </script>
+</body>
+</html>

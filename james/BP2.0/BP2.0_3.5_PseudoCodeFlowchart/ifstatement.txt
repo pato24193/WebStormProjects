@@ -1,0 +1,13 @@
+BEGIND
+	INPUT grade
+	IF grade >= 75
+		DISPLAY "A"
+	ELSE IF grade < 75 and grade >= 60
+		DISPLAY "B"
+	ELSE IF grade < 60 and grade >= 45
+		DISPLAY "C"
+	ELSE IF grade < 45 and grade >= 35
+		DISPLAY "D"
+	ELSE
+		DISPLAY "E"
+END

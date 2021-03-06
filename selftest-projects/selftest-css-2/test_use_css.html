@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test CSS</title>
+    <link rel="stylesheet" href="css/external-css.css" />
+    <style>
+        .internal-css-text {
+            color: blue;
+        }
+
+        #selector-id {
+            color: green;
+        }
+
+        .selector-class {
+            color: blue;
+        }
+
+        h3 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="color: red">Hello Module 3! (inline)</h3>
+    <h3 class="internal-css-text">Hello Module 3! (internal)</h3>
+    <h3 class="external-css-text">Hello Module 3! (external)</h3>
+    <h3 class="external-css-text internal-css-text ">Hello Module 3! (inline-internal-external)</h3>
+    <h3 class="selector-class">Hello Module 3! (selector)</h3>
+</body>
+</html>

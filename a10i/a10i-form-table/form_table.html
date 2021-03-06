@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tờ khai y tế</title>
+</head>
+<body>
+    <form action="/xu_ly_thong_tin_to_khai_y_te" method="get">
+<!--        <input type="" name="phanLoai" value="covid-2019" />-->
+        <label for="idFullName">Họ và tên</label>
+        <input id="idFullName" type="text" name="fullName" value="Nguyễn Văn A" />
+        <br><br>
+        <label>Giới tính</label>
+        <input type="radio" name="gender"/> Nam
+        <input type="radio" name="gender" /> Nữ
+        <br><br>
+        <label>Bạn đang sinh sống ở</label>
+        <select name="city">
+            <option value="dn">Đà Nẵng</option>
+            <option value="hn">Hà Nội</option>
+            <option value="hcm">HCM</option>
+        </select>
+        <br><br>
+        <label>Ngày sinh</label>
+        <input type="date" name="dateOfBirth" />
+        <br><br>
+        <p>Trong vòng 21 ngày, bạn có triệu chứng gì dưới đây:</p>
+        <input type="checkbox" name="status" id="idStatusHo" /><label style="color:red" for="idStatusHo">Sốt</label>
+        <input type="checkbox" name="status" />Ho
+        <input type="checkbox" name="status" />Khó thở
+        <br><br>
+        <input type="submit" value="Xác nhận"/>
+        <input type="reset" value="Khôi phục"/>
+    </form>
+</body>
+</html>

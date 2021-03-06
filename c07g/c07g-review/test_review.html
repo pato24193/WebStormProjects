@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/duong_dan_server" method="post">
+        <input id="passwordId" type="password" name="passwordUser">
+        <input type="submit" value="Send value" />
+        <button type="button" onclick="getPassword()">Get password</button>
+    </form>
+    <button type="button" onclick="seePassword()">See pasword</button>
+
+    <script>
+        function getPassword() {
+            console.log(document.getElementById("passwordId").value);
+        }
+
+        function seePassword() {
+            document.getElementById("passwordId").type = 'text';
+        }
+        // encode: df7sdf87sdfsdf6sdf7sd6f7sd6f7sd6f -> c0720g1
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b20172a-fa4f-4fca-8086-17a6ef4d93c0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZlKDVRSfKjJSJm3lkplUoXYMVJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CGDN-Angular-StackBlitz-master" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\JWBD2.0\session3_css\exercise3" />
+      <recent name="D:\WebStormProjects\JWBD2.0\session3_css\exercise3\img" />
+      <recent name="D:\WebStormProjects\JWBD2.0\session3_css\exercise1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\JWBD2.0\session8_basic_bootstrap\exercise1" />
+      <recent name="D:\WebStormProjects\JWBD2.0\session3_css\external_style" />
+      <recent name="D:\WebStormProjects\JWBD2.0\session3_css\internal_style" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b20172a-fa4f-4fca-8086-17a6ef4d93c0" name="Default Changelist" comment="" />
+      <created>1585408120286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585408120286</updated>
+      <workItem from="1585408121801" duration="8038000" />
+      <workItem from="1585552724955" duration="1426000" />
+      <workItem from="1585563857223" duration="408000" />
+      <workItem from="1585622878936" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1585622995531">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585622995531" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <select id="typeService" onchange="displayProperty()">
+        <option value="v">Villa</option>
+        <option value="r">Room</option>
+        <option value="h">House</option>
+    </select>
+    <input type="text" id="propertyVilla" />
+    <input type="text" id="propertyRoom" />
+    <input type="text" id="propertyHouse" />
+    <script>
+        function displayProperty() {
+            let selectElement = document.getElementById("typeService");
+            let propertyVilla = document.getElementById("propertyVilla");
+            let propertyRoom = document.getElementById("propertyRoom");
+
+            if (selectElement.value === "v") {
+                propertyVilla.style.display = "block";
+                propertyRoom.style.display = "none";
+            } else if (selectElement.value === "r") {
+                propertyVilla.style.display = "none";
+                propertyRoom.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

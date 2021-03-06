@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec645388-34ad-4b03-b55e-f3bd618e3d46" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yst5jMOaVYxZKpEzK7A40Oijok" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Teach" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\TestJS\BP2.0_9.4_JSCondition" />
+      <recent name="D:\WebStormProjects\TestJS\BP2.0_9.4_JSCondition\img" />
+      <recent name="D:\WebStormProjects\TestJS\BP2.0_11.4_JSLoop" />
+      <recent name="D:\WebStormProjects\TestJS\BP2.0_11.3_JSLoop" />
+      <recent name="D:\WebStormProjects\TestJS\BP2.0_11.2_JSLoop" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec645388-34ad-4b03-b55e-f3bd618e3d46" name="Default Changelist" comment="" />
+      <created>1583742947897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583742947897</updated>
+      <workItem from="1583742951123" duration="1399000" />
+      <workItem from="1583757652825" duration="13163000" />
+      <workItem from="1583802838993" duration="9730000" />
+      <workItem from="1583844206843" duration="17665000" />
+      <workItem from="1583888818756" duration="8623000" />
+      <workItem from="1583935188663" duration="3920000" />
+      <workItem from="1583939151026" duration="2618000" />
+      <workItem from="1583980707818" duration="5608000" />
+      <workItem from="1584026236931" duration="9620000" />
+      <workItem from="1584065680440" duration="5003000" />
+      <workItem from="1584105618207" duration="648000" />
+      <workItem from="1584155775123" duration="5896000" />
+      <workItem from="1584167899262" duration="5536000" />
+      <workItem from="1584198965083" duration="5681000" />
+      <workItem from="1584233825193" duration="30826000" />
+      <workItem from="1588559964102" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1588559982657">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588559982657" />
+    <state x="-1457" y="165" key="SettingsEditor" timestamp="1584245740353">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1457" y="165" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584245740353" />
+    <state x="268" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583895598649" />
+    <state x="-1242" y="104" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583759650119">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1242" y="104" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1583759650119" />
+    <state x="-1253" y="154" width="586" height="732" key="find.popup" timestamp="1584269834899">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1253" y="154" width="586" height="732" key="find.popup/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584269834899" />
+    <state x="-1434" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1584269534858">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1434" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584269534858" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584199915713" />
+  </component>
+</project>
