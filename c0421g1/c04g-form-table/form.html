@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/link_server" method="get">
+        <div>
+            Họ và tên
+            <input type="text" name="fullName" placeholder="Please input name">
+        </div>
+        <br>
+        <div>
+            Giới tính
+            <input type="radio" name="gender" value="male"> Nam
+            <input type="radio" name="gender" value="female"> Nữ
+        </div>
+        <br>
+        <div>
+            Bạn đang sinh sống ở
+            <select name="city">
+                <option value="hn">Hà Nội</option>
+                <option value="dn">Đà Nẵng</option>
+                <option value="hcm">HCM</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Ngày sinh <input type="date" name="dateOfBirth">
+        </div>
+        <br>
+        <div>
+            Trong vòng 21 ngày, bạn có triệu chứng gì dưới đây:
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="sick" value="sot"> Sốt
+            <input type="checkbox" name="sick" value="ho"> Ho
+            <input  type="checkbox" name="sick" value="khotho"> Khó thở
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Xác nhận">
+            <input type="reset" value="Khôi phục">
+        </div>
+    </form>
+
+</body>
+</html>

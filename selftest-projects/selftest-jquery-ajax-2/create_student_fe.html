@@ -11,8 +11,8 @@
     <input type="date" id="inputDateOfBirth">
     <p>Class: </p>
     <select id="inputClassId">
-        <option value="1">C0720G1</option>
-        <option value="2">C0920G1</option>
+        <option value="1">C1120G1</option>
+        <option value="2">C1220G1</option>
     </select>
     <button id="btnRegister">Register</button>
 
@@ -21,15 +21,17 @@
         $(document).ready(function() {
             $("#btnRegister").click(function() {
                 let name = $("#inputName").val();
+                // document.getElementById("inputName").value
                 let dateOfBirth = $("#inputDateOfBirth").val();
                 let classId = $("#inputClassId").val();
                 let student = {
                     "name": name,
                     "dateOfBirth": dateOfBirth,
-                    "classRoom": {
+                    "classStudent": {
                         "id": classId
                     }
                 };
+
                 console.log(student);
 
                 $.ajax({

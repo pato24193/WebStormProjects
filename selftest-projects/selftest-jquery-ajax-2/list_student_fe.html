@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script>
+    let page = 1;
+    $.ajax({
+        type: "GET", //GET, DELETE, PUT...
+        url: "http://localhost:8080/apiStudent/list?page=" + page,
+        dataType: "json",
+        // dataType: "text",
+        success: function(result){
+            console.log(result);
+        },
+        error: function(result) {
+            console.log("Fail");
+        }
+    });
+</script>
+</body>
+</html>
