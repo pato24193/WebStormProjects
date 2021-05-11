@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let count = 0;
+    while (count++ < 10) { // count = 1, 3, 5, 7, 9
+        count++; // count = 2, 4, 6, 8, 10
+    }
+    // count = 11
+
+    let count = 0;
+    do {
+        count++; // count = 1, 3, 5, 7, 9, 11
+    } while (count++ < 10); // count = 2, 4, 6, 8, 10, 12
+    // count = 12;
+
+    // for in, for of -> Array
+</script>
+</body>
+</html>

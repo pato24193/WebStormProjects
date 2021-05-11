@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    for (let i = 1; i <= 5; i++) {
+        console.log(i);
+
+        if (i === 3) {
+            continue;
+        }
+
+        console.log("Hello");
+    }
+
+    // continue
+    // Tinh: 1, Hello, 2, Hello, 4, Hello, 5, Hello
+    // Kiet: 1, Hello, 2, Hello, 3, 4, Hello, 5, Hello
+    // Hoang: 1, 2, 3, Hello, 4, 5
+
+    // break;
+    // Bao: 1, Hello, 2, Hello, 3, Hello
+    // Tinh: 1, 2, 3, Hello
+    // Tai: 1, Hello, 2, Hello, 3
+</script>
+</body>
+</html>

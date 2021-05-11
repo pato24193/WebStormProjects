@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // for (let i = 0; i <= 18; i += 2) {
+    //     console.log(i);
+    // }
+
+    // 2. Viết chương trình in ra 10 số chẵn đầu tiên?
+    // while
+    // C1
+    // let count = 0;
+    // let run = 1;
+    //
+    // while (count < 10) {
+    //
+    //     if (run % 2 === 0) {
+    //         console.log(run);
+    //         count++;
+    //     }
+    //
+    //     run++;
+    // }
+
+    // C2
+    let count = 0;
+    let run = 1;
+
+    while (true) {
+
+        if (run % 2 === 0) {
+            console.log(run);
+            count++;
+        }
+
+        if (count === 10) {
+            break;
+        }
+
+        run++;
+    }
+</script>
+</body>
+</html>
