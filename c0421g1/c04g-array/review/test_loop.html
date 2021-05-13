@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // 1. Biểu thức ở for, while, do...while
+    // for (let i = 0; i < 3; i++) {
+    //     console.log("Hello");
+    // }
+    // console.log("World!");
+
+    // let a = 4;
+    // if (a === 3)
+    //     console.log("Hello");
+    // console.log("World!");
+
+    // Ha: World
+    // Cong: World
+
+    // 2. Vòng lặp lồng nhau
+
+    // for (let i = 1; i <= 3; i++) {
+    //     for (let j = 1; j <= 2; j++) {
+    //         console.log(i + " " + j);
+    //     }
+    // }
+    //
+    // while(true) {
+    //
+    //     // dem = 20 thi break
+    // }
+    // i = 1
+
+    // 3. Khi nào sử dụng
+    // GIAI THUA
+    // let n = parseInt(prompt("Please input n: "));
+    // let result = 1;
+    //
+    // while (n > 1) {
+    //     result *= n; // result = 1 * 3 * 2;
+    //     n--;
+    // }
+    //
+    // console.log(result);
+
+    // HINH CHU NHAT RONG
+    let row = parseInt(prompt("Please input row: "));
+    let column = parseInt(prompt("Please input column: "));
+
+    for (let i = 1; i <= row; i++) {
+        for (let j = 1; j <= column; j++) {
+            if (i == 1 || j == 1 || i == row || j == column) {
+                document.write("*");
+            } else {
+                document.write("&nbsp;&nbsp;");
+            }
+        }
+        document.write("<br>");
+    }
+</script>
+</body>
+</html>

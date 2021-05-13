@@ -7,25 +7,20 @@
 <body>
 <script>
 
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 3; i++) {
         console.log(i);
 
-        if (i === 3) {
+        if (i === 2) {
             continue;
         }
 
         console.log("Hello");
     }
 
-    // continue
-    // Tinh: 1, Hello, 2, Hello, 4, Hello, 5, Hello
-    // Kiet: 1, Hello, 2, Hello, 3, 4, Hello, 5, Hello
-    // Hoang: 1, 2, 3, Hello, 4, 5
+    // 1 Hello 2
+    // 1 Hello 2 3 Hello
 
-    // break;
-    // Bao: 1, Hello, 2, Hello, 3, Hello
-    // Tinh: 1, 2, 3, Hello
-    // Tai: 1, Hello, 2, Hello, 3
+
 </script>
 </body>
 </html>

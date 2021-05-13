@@ -1,25 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="653f2ee2-e1bd-4cfc-ab85-5bd4a43dd3b1" name="Default Changelist" comment="" />
+    <list default="true" id="653f2ee2-e1bd-4cfc-ab85-5bd4a43dd3b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c04g-loop-statement/test_break_continue.html" beforeDir="false" afterPath="$PROJECT_DIR$/../c04g-loop-statement/test_break_continue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c04g-loop-statement/test_loop.html" beforeDir="false" afterPath="$PROJECT_DIR$/../c04g-loop-statement/test_loop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../draft-projects/angular-adventure" beforeDir="false" afterPath="$PROJECT_DIR$/../../draft-projects/angular-adventure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../draft-projects/angular-change-font-size" beforeDir="false" afterPath="$PROJECT_DIR$/../../draft-projects/angular-change-font-size" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../draft-projects/typescript-demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../draft-projects/typescript-demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../guideline-projects/DemoSendMail" beforeDir="false" afterPath="$PROJECT_DIR$/../../guideline-projects/DemoSendMail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../guideline-projects/demo-send-mail" beforeDir="false" afterPath="$PROJECT_DIR$/../../guideline-projects/demo-send-mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../guideline-projects/demo-upload-firebase" beforeDir="false" afterPath="$PROJECT_DIR$/../../guideline-projects/demo-upload-firebase" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../guideline-projects/upload-file-fe" beforeDir="false" afterPath="$PROJECT_DIR$/../../guideline-projects/upload-file-fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../james/CaseStudyMD3" beforeDir="false" afterPath="$PROJECT_DIR$/../../james/CaseStudyMD3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../james/wfda-angular" beforeDir="false" afterPath="$PROJECT_DIR$/../../james/wfda-angular" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-component" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-component-template" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-component-template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-component-template-two" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-component-template-two" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-connect-to-backend" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-connect-to-backend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-connect-to-backend-three" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-connect-to-backend-three" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-connect-to-backend-two" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-connect-to-backend-two" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-form" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-form-three" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-form-three" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-form-two" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-form-two" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-module" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-module-three" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-module-three" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-module-two" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-module-two" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-multi-item-same-name" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-multi-item-same-name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-overview" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-overview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-overview-three" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-overview-three" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-overview-two" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-overview-two" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-route" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-route" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-route" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-route" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-route-four" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-route-four" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-route-three" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-route-three" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-route-two" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-route-two" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-router-five" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-angular-service-router-five" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-reactjs-first" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-reactjs-first" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-reactjs-new" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-reactjs-new" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-upload-image-firebase" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-upload-image-firebase" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1sRfQ8qsSlpDXqszE2Qz4PHhEu3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test_loop.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/c04g-array/review/test_loop.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.test_loop.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,7 +91,89 @@
       <option name="presentableId" value="Default" />
       <updated>1620840303728</updated>
       <workItem from="1620840305463" duration="5000" />
+      <workItem from="1620866951495" duration="10953000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1620907564140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620907564140" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1620907564140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620907564140" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1620907564138">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620907564138" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1620907564140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620907564140" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1620907564141">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620907564141" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1620907564140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1620907564140" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1620907564140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1620907564140" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1620907564140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1620907564140" />
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom" timestamp="1620907564144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620907564144" />
+    <state width="1345" height="223" key="GridCell.Tab.2.center" timestamp="1620907564144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1620907564144" />
+    <state width="1345" height="223" key="GridCell.Tab.2.left" timestamp="1620907564142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1620907564142" />
+    <state width="1345" height="223" key="GridCell.Tab.2.right" timestamp="1620907564144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1620907564144" />
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom" timestamp="1620907564145">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620907564145" />
+    <state width="1345" height="223" key="GridCell.Tab.3.center" timestamp="1620907564145">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1620907564145" />
+    <state width="1345" height="223" key="GridCell.Tab.3.left" timestamp="1620907564145">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1620907564145" />
+    <state width="1345" height="223" key="GridCell.Tab.3.right" timestamp="1620907564145">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1620907564145" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/review/test_loop.html</url>
+          <line>25</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

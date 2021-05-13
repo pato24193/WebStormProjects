@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let num = 123548;
+    // let a = num.toString();
+    // for (let i =0;i<a.length; i++){
+    //     console.log("Kết quả là: "+a[i])
+    // }
+    // // a có phải là 1 array ko
+    // // "hello world" -> 'h', 'e', 'l', 'l'
+    //
+    // let array = ["Joe","Loe","John","Max"];
+    // console.log(array);
+    // array.splice(1,0,"la","Sol","Si");
+    // //tại sao console nằm trước hàm splice,
+    // // nhưng khi console ra , thì chuỗi bị thay đổi
+    //
+    // // INPUT mang 2 chieu
+    // let iMax = 20;
+    // let jMax = 10;
+    // let f = new Array();
+    //
+    // for (i = 0; i < iMax; i++) {
+    //     f[i] = new Array();
+    //     for (j = 0; j < jMax; j++) {
+    //         f[i][j] = 0;
+    //     }
+    // }f.lenght = 20.
+    // //Giải thích giúp em
+
+    let points = [40, 100, 1, 5, 25, 10];
+    // console.log(points.sort());
+    points.sort(function(a, b) {
+        return b - a;
+    })
+    console.log(points);
+
+    let x = [1, 3, 5, 7]; // length = 4
+    let y = [2, 4, 6]; // length = 3
+    x[2] = y[x.length - 3]; // y[4 - 3] = y[1]; => x[2] = y[1]
+    // 1, 3, 4, 7
+    console.log(x);
+
+    let x = [1,3,5,7];
+    let y = [2,4,6];
+    x[2] = y[x.length-3] + x [ x[0] + y[0] ];
+    // x[2] = y[1] + x[3] = 4 + 7 = 11
+    // 1, 3, 11, 7
+    console.log(x);
+
+    // mảng chứa được kiểu dữ liệu nào?,
+    // kieu nguyen thuy: logic, number, string, undefined
+    // kieu tham chieu: object, null
+    //     mảng có chứa đc null hay undif hay không hả a ?
+</script>
+</body>
+</html>
