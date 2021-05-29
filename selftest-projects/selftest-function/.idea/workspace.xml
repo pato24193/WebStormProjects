@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="de28566c-07fe-483e-b340-a28f81c2cc33" name="Default Changelist" comment="" />
+    <list default="true" id="de28566c-07fe-483e-b340-a28f81c2cc33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../c11g/c11g-javascript-function/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020/c07g/c07g-function/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020/c07g/c07g-function/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c0421g1/c04g-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../c0421g1/c04g-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c0421g1/c04g-array/test_function.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../c0421g1/c04g-array/test_function.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c0421g1/c04g-loop-statement/draft/test_prime_number.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../c0421g1/c04g-loop-statement/draft/test_prime_number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c11g/c11g-array-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../c11g/c11g-array-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c11g/c11g-javascript-function/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../c11g/c11g-javascript-function/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selftest-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../selftest-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selftest-array/draft_2/test_array.html" beforeDir="false" afterPath="$PROJECT_DIR$/../selftest-array/draft_2/test_array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass_by_reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/draft_1/pass_by_reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass_by_value.html" beforeDir="false" afterPath="$PROJECT_DIR$/draft_1/pass_by_value.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +46,32 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1gMizY81x7BfT2uei6Avc7fTIEa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../c07g/c07-condition-statement" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/draft_2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\selftest-projects\selftest-function\draft_2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\selftest-projects\selftest-function\draft_1" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,16 +85,28 @@
       <updated>1597931124777</updated>
       <workItem from="1597931126630" duration="5892000" />
       <workItem from="1597971044130" duration="1933000" />
+      <workItem from="1621131983283" duration="1914000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1597995325416">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1621133667125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597995325416" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1621133667125" />
   </component>
 </project>

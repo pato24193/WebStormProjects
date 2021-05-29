@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            color: #e78496;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvasHTML" width="1000" height="1000"></canvas>
+
+    <script>
+        let canvasHTML = document.getElementById("canvasHTML");
+        // lay giay ve
+        let canvasContext = canvasHTML.getContext("2d");
+
+        // // hinh tron
+        // // uoc luong hinh tron
+        // x = 100, y = 100, ban kinh = 50, goc bat dau ve = 0, goc ket thuc ve = 2 * Math.PI
+        canvasContext.arc(200, 400, 150, 0, 2 * Math.PI);
+        // ve vien
+        canvasContext.stroke();
+        // xac dinh mau de to
+        canvasContext.fillStyle = "pink";
+        // to mau
+        canvasContext.fill();
+
+        // hinh chu nhat (~ hinh vuong)
+        // C1
+        // canvasContext.rect(100, 100, 300, 200);
+        // canvasContext.stroke();
+        // canvasContext.fillStyle = "yellow";
+        // canvasContext.fill();
+
+        // C2
+        canvasContext.fillStyle = "red";
+        canvasContext.fillRect(100, 100, 300, 200);
+    </script>
+</body>
+</html>

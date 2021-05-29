@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrayXepHang = [6, 3, 7, 8, 5, 1, 9];
+    let iInsert = parseInt(prompt("Please input index to insert: "));
+    let elementInsert = parseInt(prompt("Please input element: "));
+
+    for (let i = arrayXepHang.length - 1; i >= iInsert; i--) {
+        arrayXepHang[i + 1] = arrayXepHang[i];
+    }
+
+    arrayXepHang[iInsert] = elementInsert;
+
+    console.log(arrayXepHang);
+
+</script>
+
+</body>
+</html>

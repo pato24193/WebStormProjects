@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ce68606-680d-4b88-b10a-7e0ec546927c" name="Default Changelist" comment="" />
+    <list default="true" id="9ce68606-680d-4b88-b10a-7e0ec546927c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../c0421g1/c04g-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../c0421g1/c04g-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selftest-projects/selftest-array/draft_2/test_array.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-array/draft_2/test_array.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +18,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1lg4NGx4j1wg2Ud78mgK748RC6Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -42,11 +50,12 @@
       <option name="presentableId" value="Default" />
       <updated>1608005358130</updated>
       <workItem from="1608005360090" duration="1797000" />
+      <workItem from="1620923545329" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1608007513374">

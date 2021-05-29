@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập số nguyên bất kỳ 1 "));
+    // let factorial = 1
+
+    function factoriaofnumber(number) {
+        let factorial = 1;
+
+        if (number > 0) {
+            for (let i = 1; i <= number; i++) {
+                factorial = factorial * i;
+            }
+            return factorial;
+        } else {
+            return "Không tính được giai thừa"
+        }
+    }
+
+    let facA = factoriaofnumber(a);
+    document.write("Giai thừa của " + a + " là " + facA)
+
+    let b = parseInt(prompt("Nhập số nguyên bất kỳ 2"));
+    let facB = factoriaofnumber(b);
+    document.write("Giai thừa của " + b + " là " + facB);
+</script>
+</body>
+</html>

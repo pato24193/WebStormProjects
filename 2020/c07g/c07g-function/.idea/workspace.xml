@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f90adda-1a82-4d99-87a1-af8800bd9476" name="Default Changelist" comment="" />
+    <list default="true" id="6f90adda-1a82-4d99-87a1-af8800bd9476" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../c11g/c11g-javascript-function/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../selftest-projects/selftest-function/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c0421g1/c04g-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c0421g1/c04g-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c0421g1/c04g-array/test_function.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c0421g1/c04g-array/test_function.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c11g/c11g-array-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c11g/c11g-array-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c11g/c11g-javascript-function/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c11g/c11g-javascript-function/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../selftest-projects/selftest-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../selftest-projects/selftest-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../selftest-projects/selftest-array/draft_2/test_array.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../selftest-projects/selftest-array/draft_2/test_array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../selftest-projects/selftest-function/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../selftest-projects/selftest-function/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../selftest-projects/selftest-function/pass_by_reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../selftest-projects/selftest-function/draft_1/pass_by_reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../selftest-projects/selftest-function/pass_by_value.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../selftest-projects/selftest-function/draft_1/pass_by_value.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +27,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1gOn7TcdRuh6XwvHOJYw7zkwWU4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../c11g/c11g-javascript-function" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -47,11 +64,12 @@
       <workItem from="1607072462266" duration="662000" />
       <workItem from="1608075693345" duration="237000" />
       <workItem from="1608081372615" duration="610000" />
+      <workItem from="1621132242278" duration="551000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1608083141446">

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function factoriaofnumber(number) {
+        let factorial = 1;
+
+        if (number > 0) {
+            for (let i = 1; i <= number; i++) {
+                factorial = factorial * i;
+            }
+            return factorial;
+        } else {
+            return "Không tính được giai thừa"
+        }
+    }
+
+    let abc = 5;
+    console.log(factoriaofnumber(abc));
+    let xyz = 4;
+    console.log(factoriaofnumber(xyz));
+</script>
+</body>
+</html>

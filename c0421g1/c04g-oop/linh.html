@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="drawRectangle"></div>
+<script>
+    let Rectangle = function (length,width) {
+        this.length = length;
+        this.width = width;
+        this.getLength = function () {
+            return this.length;
+        }
+        this.getWidth = function () {
+            return this.width;
+        }
+        this.getAcreage = function () {
+            return length * width;
+        }
+        this.getPerimeter = function () {
+            return (length + width) * 2
+        }
+        this.setLength = function (length) {
+            this.length = length;
+        }
+        this.setWidth = function (width) {
+            this.width = width;
+        }
+    };
+    let rectangle = new Rectangle(5,6);
+    let length = rectangle.getLength()
+    let width = rectangle.getWidth()
+    let acr = rectangle.getAcreage();
+    let per = rectangle.getPerimeter()
+    alert("Rectange has length is "+length+" and width is "+width+" with acreage is "+acr+" and perimeter is "+per)
+    rectangle.setLength(10);
+    rectangle.setWidth(20);
+    let length1 = rectangle.getLength();
+    console.log(length1);
+    let width1 = rectangle.getWidth();
+    let acr1 = rectangle.getAcreage();
+    let per1 = rectangle.getPerimeter();
+    alert("Rectange has length is "+length1+" and width is "+width1+" with acreage is "+acr1+" and perimeter is "+per1)
+    let canvasid = document.getElementById("drawRectangle");
+    let canvasContext = canvasid.getContext("2d");
+    canvasContext.fillStyle = "red";
+    canvasContext.fillRect(100,-100,300, 200)
+</script>
+</body>
+</html>

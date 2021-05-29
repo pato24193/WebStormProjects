@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        class Student {
+            // ham khoi tao voi 3 tham so dau vao,
+            // 3 tham so nay cung chinh la thuoc tinh cua class
+            constructor(id, name, dateOfBirth) {
+                this.id = id;
+                this.name = name;
+                this.dateOfBirth = dateOfBirth;
+                this.email = email;
+            }
+
+            // hanh dong an
+            eat(food) {
+                console.log(this.name + " eat " + food);
+            }
+
+            // hanh dong hoc
+            study(subject) {
+                console.log(this.name + " study " + subject);
+            }
+        }
+
+        let objNhat = new Student(26137, "Dong Van Nhat", "20/05/2000");
+        objNhat.study("JavaScript - OOP");
+        // objNhat.eat("fish");
+        // console.log(objNhat.dateOfBirth);
+        // objNhat.name = "Nguyen Van A";
+        // objNhat.study("JavaScript - OOP");
+
+        // let objQuan = new Student(99987, "Quan", "21/05/1999");
+        // console.log(objQuan.name);
+        // objQuan.eat("rice");
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Student {
+        constructor(id, name, dateOfBirth) {
+            this.id = id;
+            this.name = name;
+            this.dateOfBirth = dateOfBirth;
+        }
+
+        eat(food) {
+            console.log(this.name + " eat " + food);
+        }
+
+        study(subject) {
+            console.log(this.name + " study " + subject);
+        }
+    }
+
+    let studentObj = new Student(1213, "Nguyen Van A", "20/05/2000");
+    studentObj.eat("fish");
+
+    let studentObj2 = new Student(9875, "Nguyen Van B", "27/05/2000");
+    // studentObj.eat("fish");
+    console.log(studentObj2.dateOfBirth);
+</script>
+</body>
+</html>

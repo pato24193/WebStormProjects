@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = new Array();
+    let length = parseInt(prompt('Please input length of array: '));
+    for (i=0; i < length; i++) {
+        array[i] = prompt('Please enter a ['+ i + ']: ');
+    }
+    document.write('Before pushing: ' + array + '<br>');
+    //chèn phần tử vào
+    let add_E = prompt('Enter new Element: ');
+    array.push(add_E);
+    document.write('After pushing: ' + array + '<br>');
+    //sắp xếp vị trí
+    let add_in = prompt('Enter position of new Element: ');
+    // let tmp = array[add_in];
+    // array[add_in] = add_E;
+    // array[array.length - 1] = tmp;
+    for(i=add_in; i < array.length; i++) {
+        b = array[i];
+        array[i] = array[array.length-1];
+        array[array.length-1] = b;
+    }
+    document.write('Array after arranging: ' + array)
+</script>
+</body>
+</html>

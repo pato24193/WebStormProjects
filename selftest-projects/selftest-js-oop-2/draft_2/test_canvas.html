@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <canvas id="canvasShape" width="1000" height="1000"></canvas>
+    <script>
+        let canvasShape = document.getElementById("canvasShape");
+        let canvasContext = canvasShape.getContext("2d");
+
+        // canvasContext.arc(100, 100, 30, 0, 2 * Math.PI);
+        // canvasContext.stroke();
+        // canvasContext.fillStyle = "pink";
+        // canvasContext.fill();
+
+        // canvasContext.rect(100, 100, 50, 100);
+        // canvasContext.stroke();
+        // canvasContext.fillStyle = "violet";
+        // canvasContext.fill();
+
+
+        canvasContext.fillStyle = "yellow";
+        canvasContext.fillRect(100, 100, 200, 500);
+
+
+        // canvasContext.font = "italic 100pt Times New Roman";
+        // canvasContext.fillText("Haha", 100, 100);
+    </script>
+</body>
+</html>

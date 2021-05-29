@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let arrayOneDimension = [1, 2, 3];
+
+    let array2Dimension = [
+      [1, 2, 3],
+      [9, 6, 2, 4]
+    ];
+
+    for (let i = 0; i < array2Dimension.length; i++) {
+
+        for (let j = 0; j < array2Dimension[i].length; j++) {
+            document.write(i + " " + j + ": " + array2Dimension[i][j] + ", ");
+        }
+
+        document.write("<br>");
+    }
+</script>
+</body>
+</html>

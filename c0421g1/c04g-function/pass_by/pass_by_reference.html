@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function changeValuePassByReference(funcNum) {
+        funcNum[0] = 1;
+        funcNum[1] = 10;
+    }
+
+    let num = [24, 9];
+    changeValuePassByReference(num);
+    console.log(num);
+
+    // Ha: 1, 10
+    // Minh: 1, 10
+    // Duc: 1, 10
+</script>
+</body>
+</html>

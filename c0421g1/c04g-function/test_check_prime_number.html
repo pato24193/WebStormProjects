@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script src="my_lib.js"></script>-->
+<script>
+
+    // // Input: so can kiem tra co phai la so nguyen to hay khong
+    // // Output: true, neu number la SNT. Nguoc lai, thi tra ve false (return)
+    function isPrimeNumber(numberUser) {
+        let count = 0;
+
+        for (let i = 1; i <= numberUser; i++) {
+            if (numberUser % i == 0) {
+                count++;
+            }
+        }
+
+        if (count == 2) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function isPrimeNumberNoReturn(numberUser) {
+        let count = 0;
+
+        for (let i = 1; i <= numberUser; i++) {
+            if (numberUser % i == 0) {
+                count++;
+            }
+        }
+
+        if (count === 2) {
+            console.log("Prime number (function)");
+        } else {
+            console.log("Not prime number (function)");
+        }
+    }
+
+
+    let numberPrompt = parseInt(prompt("Please input a number: "));
+
+    // C1
+    if (isPrimeNumber(numberPrompt)) { // == true
+        console.log("Prime number");
+    } else {
+        console.log("Not prime number");
+    }
+
+    // C2
+    // isPrimeNumberNoReturn(numberPrompt);
+
+</script>
+</body>
+</html>

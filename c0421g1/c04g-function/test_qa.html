@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // function swap(a, b) {
+    //     var temp = a;
+    //     a = b;
+    //     b = temp;
+    // }
+    //
+    // var a = 5;
+    // var b = 10;
+    // swap(a, b);
+    // document.write("a = " + a + ", b = " + b);
+
+    function func1(a){
+        if(a == 2)
+            return 2;
+        return a * func1(a - 1);
+    }
+
+    // De quy: ham gọi chính nó
+    // a = 4 -> func1(4)
+    // func1(4)
+    // -> 4 * func1(3)
+    // -> 4 * 3 * func1(2)
+    // -> 4 * 3 * 2 = 24
+</script>
+</body>
+</html>
