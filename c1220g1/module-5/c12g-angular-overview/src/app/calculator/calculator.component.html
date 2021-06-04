@@ -1,0 +1,9 @@
+<p>calculator works!</p>
+
+<h3>Number 1</h3>
+<input class="form-control" type="text" [value]="numberOne" (change)="setValue1($event)">
+<h3>Number 2</h3>
+<input class="form-control" type="text" [(ngModel)]="numberTwo">
+<br>
+<input class="btn btn-primary" type="button" value="Sum" (click)="sum2Num()">
+<h3 style="color: green">{{result}}</h3>

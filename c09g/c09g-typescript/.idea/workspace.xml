@@ -1,8 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="35ac3a58-afdf-41f4-bb66-58447c06433c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../selftest-projects/selftest-typescript-4/.idea/selftest-typescript-4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asynchronous.html" beforeDir="false" afterPath="$PROJECT_DIR$/asynchronous.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/.idea/c1220g1-bootstrap-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap-2/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/.idea/c1220g1-bootstrap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/img/comic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/img/comic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/img/comic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/js/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-bootstrap/test_bootstrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css/.idea/c1220g1-css.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css/css/style_of_me.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css/test_box_model.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css/test_selector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-css/test_use_css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-design-layout-web.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-design-layout-web/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-design-layout-web/.idea/c1220g1-design-layout-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-design-layout-web/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-design-layout-web/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-design-layout-web/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-design-layout-web/content_box_border_box.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-design-layout-web/design_reponsive_web.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c1220g1/c1220g1-design-layout-web/doc_truyen.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +116,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1nzs3g27icaWBVbYoj54uMynVrV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +126,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ts.external.directory.path" value="D:\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -53,6 +151,9 @@
       <workItem from="1615087364350" duration="45000" />
       <workItem from="1620188155714" duration="628000" />
       <workItem from="1620221713405" duration="1267000" />
+      <workItem from="1622559024023" duration="1722000" />
+      <workItem from="1622600313015" duration="1198000" />
+      <workItem from="1622647183665" duration="1944000" />
     </task>
     <servers />
   </component>
@@ -66,10 +167,22 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1620223008518">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1622648309903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620223008518" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622648309903" />
   </component>
 </project>
