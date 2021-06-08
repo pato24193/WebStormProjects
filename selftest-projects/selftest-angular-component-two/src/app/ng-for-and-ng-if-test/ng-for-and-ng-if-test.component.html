@@ -1,0 +1,27 @@
+<p>ng-for-and-ng-if-test works!</p>
+
+<table>
+  <tr>
+    <th>No</th>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Date of birth</th>
+    <th>Gender</th>
+  </tr>
+  <tr *ngFor="let studentObj of listStudent; index as i">
+    <td>{{i + 1}}</td>
+    <td>{{studentObj.id}}</td>
+    <td>{{studentObj.name}}</td>
+    <td>{{studentObj.dateOfBirth}}</td>
+    <td>
+      <span *ngIf="studentObj.gender === 1; then ifBlock; else elseBlock">
+      </span>
+      <ng-template #ifBlock>
+        Male 2
+      </ng-template>
+      <ng-template #elseBlock>
+        Female
+      </ng-template>
+    </td>
+  </tr>
+</table>
