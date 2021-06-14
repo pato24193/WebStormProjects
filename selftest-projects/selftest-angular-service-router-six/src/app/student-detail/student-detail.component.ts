@@ -1,0 +1,35 @@
+import {Component, OnInit} from '@angular/core';
+import {Student} from "../student";
+import {StudentService} from "../student.service";
+import {ActivatedRoute} from "@angular/router";
+
+@Component({
+  selector: 'app-student-detail',
+  templateUrl: './student-detail.component.html',
+  styleUrls: ['./student-detail.component.css']
+})
+export class StudentDetailComponent implements OnInit {
+
+  student: Student;
+  flag: boolean = false;
+
+  constructor(private studentService: StudentService, private activatedRoute: ActivatedRoute) {
+    let idStudent = this.activatedRoute.snapshot.params.idStudent;
+    this.student = this.studentService.findById(Number(idStudent));
+  }
+
+  ngOnInit(): void {
+  }
+
+  // get data by call API
+  // findById(studentId: number): Student {
+  //   const studentList = new Array();
+  //   studentList.push(new Student(12312, 'Nguyen Van A', '2001-02-23', 1));
+  //   studentList.push(new Student(6546, 'Nguyen Thi D', '2002-02-24', 0));
+  //   studentList.push(new Student(2343, 'Nguyen Thi B', '2003-02-25', 0));
+  //   studentList.push(new Student(7776, 'Nguyen Van C', '2004-02-26', 1));
+  //
+  //   return studentList.find(studentObj => studentObj.id === studentId);
+  // }
+
+}

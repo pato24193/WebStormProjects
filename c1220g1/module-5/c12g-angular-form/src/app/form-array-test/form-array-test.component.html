@@ -1,0 +1,56 @@
+<p>form-array-test works!</p>
+<p>reactive-form-test works!</p>
+<form [formGroup]="studentForm" (ngSubmit)="getInfoStudent()">
+  <div>
+    Name:
+    <input type="text" formControlName="name"/>
+  </div>
+  <div>
+    <p style="color: red"
+       *ngIf="studentForm.controls.name.hasError('required')
+              && studentForm.controls.name.dirty">
+      Please input name
+    </p>
+  </div>
+  <div>
+    <p style="color: red"
+       *ngIf="studentForm.controls.name.hasError('pattern')
+              && studentForm.controls.name.dirty">
+      Invalid format name
+    </p>
+  </div>
+  <div>
+    Date of birth:
+    <input type="date" formControlName="dateOfBirth" />
+  </div>
+  <div>
+    <p style="color: red"
+       *ngIf="studentForm.controls.dateOfBirth.hasError('required')
+              && studentForm.controls.dateOfBirth.dirty">
+      Please input date of birth
+    </p>
+    <p style="color: red"
+       *ngIf="studentForm.controls.dateOfBirth.hasError('invalid18')
+              && studentForm.controls.dateOfBirth.dirty">
+      Age not >= 18
+    </p>
+  </div>
+  <div>
+    <div formArrayName="addressArray">
+      <div *ngFor="let _ of this.addressArray.controls; index as i">
+        <ng-container [formGroupName]="i">
+          <div>
+            Address:
+            <input type="text" formControlName="address">
+            City:
+            <input type="text" formControlName="city">
+            <button type="button" (click)="addMore()">Add more</button>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  <div>
+    <input type="submit" value="Create new" [disabled]="studentForm.invalid"/>
+  </div>
+</form>
