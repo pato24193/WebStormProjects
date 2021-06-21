@@ -55,10 +55,11 @@ export class StudentUpdateComponent implements OnInit {
     }, error => {
 
     }, () => {
-      this.router.navigateByUrl('');
+      this.router.navigateByUrl('detail/' + studentObj.id);
+      // this.router.navigate(['detail', studentObj.id]);
     });
 
-    // this.router.navigate(['detail', studentObj.id]);
+
   }
 
   validateAge18(dateOfBirthControl: AbstractControl): any {
