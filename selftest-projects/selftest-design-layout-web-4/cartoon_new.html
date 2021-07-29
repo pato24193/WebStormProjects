@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+        }
+
+        .row::after {
+            clear: both;
+        }
+
+        .header {
+            font-size: 40px;
+            background-color: lightgrey;
+        }
+
+        .header-highlight {
+            background-color: red;
+            color: white;
+        }
+
+        .menu {
+            background-color: lightgrey;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .title-channel {
+            color: lightgrey;
+        }
+
+        @media only screen and (max-width: 768px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12 header">
+            Phim <span class="header-highlight">Hoạt Hình</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 menu">
+            Phim hoạt hình |
+            Phim hoạt hình yêu thích |
+            Nhân vật hoạt hình |
+            Góp ý
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <div class="row">
+                <div class="col-12">
+                    <video width="100%" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                    <h4>Welcom đến với khách sạn Nobi</h4>
+                    <h4 class="title-channel">Channel fun</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <video width="100%" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                    <h4>Welcom đến với khách sạn Nobi</h4>
+                    <h4 class="title-channel">Channel fun</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <video width="100%" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                    <h4>Welcom đến với khách sạn Nobi</h4>
+                    <h4 class="title-channel">Channel fun</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="row">
+                <div class="col-12">
+                    <video width="100%" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                    <h4>Welcom đến với khách sạn Nobi</h4>
+                    <h4 class="title-channel">Channel fun</h4>
+                    <p>Bộ phim kể về câu chuyện Thạch Sanh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
