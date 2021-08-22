@@ -1,0 +1,30 @@
+<p>calculator works!</p>
+
+<!--<p>Number 1: </p>-->
+<!--<input class="form-control" type="text" [value]="numberOne" (change)="getValueOne($event.target.value)"/>-->
+<!--<p>Number 2: </p>-->
+<!--<input class="form-control" type="text" [value]="numberTwo" [(ngModel)]="numberTwo"/>-->
+<!--<button class="btn btn-primary" (click)="sum()">Sum</button>-->
+<!--<p>Result: {{result}}</p>-->
+<!--<label for="exampleDataList" class="form-label">Datalist example</label>-->
+<!--<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 m-lg-auto">
+      <div class="mb-3">
+        <label for="number1" class="form-label">Number 1</label>
+        <input type="text" class="form-control" id="number1"
+               [value]="numberOne" (change)="getValueOne($event.target.value)">
+      </div>
+      <div class="mb-3">
+        <label for="number2" class="form-label">Number 2</label>
+        <input type="text" class="form-control" id="number2"
+               [value]="numberTwo" [(ngModel)]="numberTwo">
+      </div>
+      <button type="button" class="btn btn-primary" (click)="sum()">Submit</button>
+      <div class="mb-3">Result final: {{result}}</div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,4 @@
+<app-child [valueReceiveFromParent]="valueSendToChild"
+  (eventEmitter)="receiveValue($event)"></app-child>
+<h2>Value receive from Child: <span style="color: springgreen">{{valueReceiveFromChild}}</span></h2>
+-----

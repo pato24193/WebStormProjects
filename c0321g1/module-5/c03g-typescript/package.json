@@ -1,0 +1,7 @@
+{
+  "name": "c03g-typescript",
+  "version": "1.0.0",
+  "dependencies": {
+    "typescript": "^4.1.5"
+  }
+}
