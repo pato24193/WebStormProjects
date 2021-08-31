@@ -1,0 +1,14 @@
+{
+  "studentList": [
+    {
+      "id": 1,
+      "name": "Tien",
+      "dateOfBirth": "2000-06-12"
+    },
+    {
+      "id": 2,
+      "name": "Long",
+      "dateOfBirth": "1999-07-12"
+    }
+  ]
+}
