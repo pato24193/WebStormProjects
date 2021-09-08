@@ -4,12 +4,12 @@ import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 
 // C1
-// @Injectable({
-//   providedIn: 'root'
-// })
+@Injectable({
+  providedIn: 'root'
+})
 
 // C3
-@Injectable()
+// @Injectable()
 export class StudentService {
 
   msg = 'Hello';

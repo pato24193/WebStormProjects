@@ -6,7 +6,7 @@ import {StudentService} from '../student.service';
   selector: 'app-student-page',
   templateUrl: './student-page.component.html',
   styleUrls: ['./student-page.component.css'],
-  providers: [StudentService] // C3
+  // providers: [StudentService] // C3
 })
 export class StudentPageComponent implements OnInit {
 
