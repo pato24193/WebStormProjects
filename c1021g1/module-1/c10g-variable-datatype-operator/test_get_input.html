@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="inputName" type="text">
+    <select id="inputCity">
+        <option value="dn">Đà Nẵng</option>
+        <option value="hcm">Hồ Chí Minh</option>
+        <option value="hn">Hà Nội</option>
+    </select>
+    <button onclick="getValue()">Get value</button>
+    <script>
+        function getValue() {
+            let name = document.getElementById("inputName");
+            let city = document.getElementById("inputCity");
+
+            console.log(name.id);
+            console.log(city.value);
+        }
+
+    </script>
+</body>
+</html>

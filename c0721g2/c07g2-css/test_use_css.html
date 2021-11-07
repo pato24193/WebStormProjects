@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Use CSS</title>
+    <link rel="stylesheet" href="css/external_file_css.css">
+    <style>
+        .color-green {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: red">Hello CSS! (inline)</h2>
+    <h2 class="color-green">Hello CSS! (internal)</h2>
+    <h2 class="color-blue">Hello CSS! (external)</h2>
+    <h2 class="color-green color-blue">Hello CSS!</h2>
+
+<!--    Demo cho Thai-->
+    <h2 id="text-name">Thái</h2>
+    <button onclick="changeColorRed()">Change color red</button>
+
+    <script>
+        function changeColorRed() {
+            document.getElementById("text-name").style.color = "red";
+        }
+    </script>
+</body>
+</html>
