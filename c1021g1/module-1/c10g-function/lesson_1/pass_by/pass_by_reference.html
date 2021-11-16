@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // tham so funcNum
+    function changeValuePassByReference(funcNum) {
+        funcNum[0] = 1;
+    }
+
+    let num = [24];
+    changeValuePassByReference(num); // doi so
+    console.log(num);
+
+    // Duy Bao: 1 (w)
+    // Anh Hoang: 1 (w)
+    // Duy Hien: 24
+</script>
+</body>
+</html>

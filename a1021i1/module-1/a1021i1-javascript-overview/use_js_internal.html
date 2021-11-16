@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="turnOn()">
+    Turn on
+</button>
+<img id="imgLight" src="img/pic_bulboff.gif" alt="">
+<button onclick="turnOff()">
+    Turn off
+</button>
+
+<script>
+    // Ham nay dung de bat den
+    function turnOn() {
+        document.getElementById("imgLight").src = "img/pic_bulbon.gif";
+    }
+
+    /*
+        Ham nay dung de tat den
+        document.getElementById dung de lay 1 phan tu o HTML dua theo id
+     */
+    function turnOff() {
+        document.getElementById('imgLight').src = 'img/pic_bulboff.gif';
+    }
+
+</script>
+</body>
+</html>

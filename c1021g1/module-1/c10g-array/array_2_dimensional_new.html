@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let row = parseInt(prompt("Muon nhap bao nhieu dong: "));
+    let a = new Array(row);
+    let col = 0;
+
+    for (let i = 0; i < a.length; i++) {
+        col = parseInt(prompt(
+            "Muon nhap bao nhieu cot " + i + " : "));
+        a[i] = new Array(col);
+
+        for (let j = 0; j < a[i].length; j++) {
+            a[i][j] = parseInt(prompt(
+                "Muon nhap phan tu " + i + ", " + j + ": "));
+        }
+    }
+
+    console.log(a);
+</script>
+</body>
+</html>

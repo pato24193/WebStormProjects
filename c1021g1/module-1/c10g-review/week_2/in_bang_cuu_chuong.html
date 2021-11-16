@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //document.write("<table border='1'>");
+    let resultTable = "<table border='1'>";
+    for (let i = 2; i <= 9; i++) {
+        // document.write("<tr>");
+        resultTable += "<tr>";
+        for (let j = 1; j <= 9; j++) {
+            resultTable += "<td>" + i + " x " + j + " = " + (i*j) + "</td>";
+            // document.write("<td>" + i + " x " + j + " = " + (i*j) + "</td>");
+            // document.write(`${i} x ${j} = ${i * j}`);
+        }
+        resultTable += "</tr>";
+        // document.write("</tr>");
+    }
+    resultTable += "</table>";
+    // document.write("</table>");
+    document.write(resultTable);
+</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 1. Nhập vào điểm của học viên thi cuối module.
+    // Nếu điểm >= 75 thì in "pass module".
+    // let grade = parseInt(prompt("Vui long nhap diem"));
+    //
+    // if (grade >= 75) {
+    //     console.log("Pass module");
+    // }
+
+    // 2. Bây giờ nếu điểm nhập vào:
+    // + Điểm < 75 => in ra "fail module"
+    // + Điểm >= 75 => in ra "pass module"
+
+    // C1
+    // let grade = parseInt(prompt("Vui long nhap diem"));
+    //
+    // if (grade >= 75) {
+    //     console.log("Pass module");
+    // } else {
+    //     console.log("Fail module");
+    // }
+
+    // C2
+    // if (grade >= 75) {
+    //     console.log("Pass module");
+    // } else if (grade < 75) {
+    //     console.log("Fail module");
+    // }
+
+    // C3
+    // let grade = parseInt(prompt("Vui long nhap diem"));
+    // console.log(grade >= 75 ? "Pass module" : "Fail module");
+
+    // 3. Bây giờ điểm nhập vào mà
+    // + Điểm >= 90  => in ra "Very good. Pass module".
+    // + Điểm < 90 và >= 75 và in ra "Good. Pass module".
+    // + Điểm < 75 => in ra "Bad, fail module".
+
+    // let grade = parseInt(prompt("Vui long nhap diem"));
+    //
+    // if (grade >= 90) {
+    //     console.log("Very good. Pass module");
+    // } else if (grade >= 75) {
+    //     console.log("Good. Pass module");
+    // } else if (grade >= 70) {
+    //     console.log("Can xem xet lai");
+    // } else {
+    //     console.log("Bad, fail module");
+    // }
+
+    // if (grade >= 90) {
+    //     console.log("Very good. Pass module");
+    // } else if (grade >= 70) {
+    //     if (grade >= 75) {
+    //         console.log("Good. Pass module");
+    //     } else {
+    //         console.log("Can xem xet lai");
+    //     }
+    // } else {
+    //     console.log("Bad, fail module");
+    // }
+
+    let a = 5;
+
+    if (a === 3)
+        console.log("if 1");
+    console.log("if 2");
+</script>
+</body>
+</html>

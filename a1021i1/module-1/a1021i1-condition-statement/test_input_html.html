@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        Input:
+        <input type="text" id="inputABC">
+        <button onclick="getResult()">Check</button>
+    </div>
+    <div>
+        Output:
+        <input type="text" id="outputABC">
+    </div>
+
+<script>
+    function getResult() {
+        let grade =
+            parseInt(document.getElementById("inputABC").value);
+
+        if (grade >= 75) {
+            document.getElementById("outputABC").value = "Pass module";
+        } else {
+            document.getElementById("outputABC").value = "Fail module";
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let, var, const
+    // const a = 3;
+
+    // let, var
+    // 1. Khai bao lai
+    // let abc = 5;
+    // let abc = 7;
+    // console.log(abc);
+
+    // var abc = 5;
+    // var abc = 7;
+    // console.log(abc);
+
+    // 2. Hoisting (hoisted)
+    // a = 3;
+    // let a = 6;
+    // console.log(a);
+
+    // a = 3;
+    // var a = 6;
+    // console.log(a);
+
+    // 3. Block scope { }
+
+    let a = 3; // global
+    var b = 4; // global
+    {
+        // block scope
+        let c = 5; // local
+        var d = 6; // global
+    }
+
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+
+    // Sy: a, b, d (w)
+    // Khoa: a, b, d (w)
+    // Hieu: b, c, d
+
+</script>
+</body>
+</html>
