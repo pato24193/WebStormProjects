@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Animal {
+        constructor(name, weight, speed) {
+            // Encapsulation
+            this._name = name;
+            this._weight = weight;
+            this._speed = speed;
+        }
+    }
+
+    // Inheritance
+    class Rat extends Animal {
+        constructor(name, weight, speed, status) {
+            super(name, weight, speed);
+
+            // Encapsulation
+            this._status = status; // song, chet
+        }
+
+        // getter
+        getStatus() {
+            return this._status;
+        }
+
+        // setter
+        setStatus(status) {
+            this._status = status;
+        }
+
+        // Polymorphism
+        growl() {
+            console.log(this.name + ": Chit, chit");
+        }
+    }
+
+    // Inheritance
+    class Cat extends Animal {
+        constructor(name, weight, speed) {
+            super(name, weight, speed);
+        }
+
+        // Polymorphism
+        growl() {
+            console.log(this.name + ": Meo, meo");
+        }
+
+        catchRat(ratObj) {
+            console.log("-------catch rat");
+            if (this.speed > ratObj.speed) {
+                this.eatRat(ratObj);
+            } else {
+                console.log("Chuot chay nhanh, bat khong duoc :(");
+            }
+        }
+
+        eatRat(ratObj) {
+            console.log("-------eat rat");
+            if (ratObj.status == "song") {
+                this.weight += ratObj.weight;
+                ratObj.status = "chet";
+                console.log("Thit chuot ngon qua. Khoi luong meo: " + this.weight);
+            } else {
+                console.log("Chuot chet roi, hoi qua!");
+            }
+        }
+    }
+
+    let ratO = new Rat("Jerry", 3, 9, "chet");
+    let catO = new Cat("Tom", 6, 14);
+    ratO.setStatus("song");
+    console.log(ratO.getStatus());
+    // console.log(catO);
+    // ratO.growl();
+    // catO.growl();
+    // catO.catchRat(ratO);
+</script>
+</body>
+</html>

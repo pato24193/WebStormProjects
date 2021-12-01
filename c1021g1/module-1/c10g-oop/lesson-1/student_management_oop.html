@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Student Management</h2>
+<table id="tblStudent" border="1">
+</table>
+<script>
+
+    class Student {
+        constructor(id, name, dateOfBirth) {
+            this.id = id;
+            this.name = name;
+            this.dateOfBirth = dateOfBirth;
+        }
+    }
+
+    let studentList = [
+        new Student(3432, "Glen John", "20/02/1998"),
+        new Student(1245, "David Tom", "01/10/1997")
+    ];
+
+    function loadData() {
+
+        let tblStudentHTML = `
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Date of birth</th>
+            </tr>`;
+        for (let i = 0; i < studentList.length; i++) {
+            tblStudentHTML += `<tr>
+                    <td>${i + 1}</td>
+                    <td>${studentList[i].name}</td>
+                    <td>${studentList[i].dateOfBirth}</td>
+                </tr>`;
+        }
+
+        document.getElementById("tblStudent").innerHTML = tblStudentHTML;
+    }
+
+    loadData();
+
+
+</script>
+</body>
+</html>

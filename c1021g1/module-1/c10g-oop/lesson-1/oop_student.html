@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Student {
+        // Ham khoi tao cac thuoc tinh
+        constructor(id, name, dateOfBirth, gender) {
+            this.id = id;
+            this.name = name;
+            this.dateOfBirth = dateOfBirth;
+            this.gender = gender;
+            this.className = "";
+        }
+
+        // Khong can phai khai bao tu khoa "function"
+        drinking() {
+            console.log(this.name + " drinking");
+        }
+
+        studying() {
+            console.log(this.name + " study JS");
+        }
+    }
+
+    let studentObj1 = new Student(98765, "Linh", "2000-11-18", "Nam");
+    let studentObj2 = new Student(123435, "Dong", "2001-11-19", "Nam");
+    console.log(studentObj1);
+    // console.log(studentObj2.name);
+    // studentObj1.drinking();
+    // studentObj1.studying();
+
+    // let lenStudent = parseInt(prompt("Ban muon nhap bao nhieu hoc vien? "));
+    // let studentList = [];
+    //
+    // for (let i = 1; i <= lenStudent; i++) {
+    //     let id = prompt("Id hoc vien " + i);
+    //     let name = prompt("Ten hoc vien " + i);
+    //     let dateOfBirth = prompt("Ngay thang nam sinh, hoc vien " + i);
+    //     let gender = prompt("Gioi tinh, hoc vien " + i);
+    //     //..
+    //     let studentObj = new Student(id, name,dateOfBirth, gender);
+    //     studentList.push(studentObj);
+    // }
+    //
+    // console.log(studentList[1].name + " " + studentList[1].dateOfBirth);
+
+</script>
+</body>
+</html>

@@ -66,20 +66,20 @@
 
         function deleteStudent(idStudent) {
             console.log(idStudent);
-            // $.ajax({
-            //     headers: {
-            //         'Accept': 'application/json',
-            //         'Content-Type': 'application/json'
-            //     },
-            //     type: "POST", //GET, DELETE, PUT...
-            //     url: "http://localhost:8080/studentRest/delete/" + idStudent,
-            //     success: function(resultSuccess){
-            //         console.log(resultSuccess);
-            //     },
-            //     error: function(resultError) {
-            //         console.log(resultError);
-            //     }
-            // });
+            $.ajax({
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                type: "POST", //GET, DELETE, PUT...
+                url: "http://localhost:8080/studentRest/delete/" + idStudent,
+                success: function(resultSuccess){
+                    console.log(resultSuccess);
+                },
+                error: function(resultError) {
+                    console.log(resultError);
+                }
+            });
         }
     </script>
 
