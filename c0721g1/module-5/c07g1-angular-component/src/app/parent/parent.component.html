@@ -1,0 +1,4 @@
+<p>parent works!</p>
+<app-child [valueReceiveParent]="valueSendChild"
+           (eventEmitter)="receiveFromChild($event)">
+</app-child>

@@ -1,0 +1,7 @@
+{
+  "name": "c07g1-typescript",
+  "version": "1.0.0",
+  "dependencies": {
+    "typescript": "^4.1.5"
+  }
+}

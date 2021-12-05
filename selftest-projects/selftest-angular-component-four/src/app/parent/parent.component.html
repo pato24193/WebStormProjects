@@ -1,0 +1,6 @@
+<p>parent works!</p>
+<p style="color: springgreen">{{valueFromChild}}</p>
+<input type="text" [(ngModel)]="isShowing">
+<app-child *ngIf="isShowing" [valueReceiveParent]="valueSendChild"
+           (eventEmitter)="receivedFromChild($event)"></app-child>
+

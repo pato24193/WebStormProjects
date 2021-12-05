@@ -1,0 +1,24 @@
+<p>ng-for-and-ng-if works!</p>
+<table border="1">
+  <tr>
+    <td>No</td>
+    <td>Id</td>
+    <td>Name</td>
+    <td>Date of birth</td>
+    <td>Gender</td>
+  </tr>
+  <tr *ngFor="let studentObj of studentList; index as i">
+    <td>{{i + 1}}</td>
+    <td>{{studentObj.id}}</td>
+    <td>{{studentObj.name}}</td>
+    <td>{{studentObj.dateOfBirth}}</td>
+    <td>
+      <span *ngIf="studentObj.gender == 1; else elseBlock">
+        Male
+      </span>
+      <ng-template #elseBlock>
+        Female
+      </ng-template>
+    </td>
+  </tr>
+</table>
