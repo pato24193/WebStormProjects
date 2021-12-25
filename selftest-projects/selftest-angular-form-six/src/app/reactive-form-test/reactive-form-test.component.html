@@ -1,0 +1,35 @@
+<p>reactive-form-test works!</p>
+<h2>Register student</h2>
+<form [formGroup]="studentForm" (ngSubmit)="registerStudent()">
+  <div>Name:
+    <input type="text" formControlName="name">
+  </div>
+  <p style="color: red"
+     *ngIf="this.studentForm.controls.name.hasError('required')
+          && this.studentForm.controls.name.dirty">Please input name!</p>
+  <p style="color: red"
+     *ngIf="this.studentForm.controls.name.hasError('pattern')
+          && this.studentForm.controls.name.dirty">Invalid format name!</p>
+  <div>
+    Date of birth:
+    <input type="date" formControlName="dateOfBirth">
+  </div>
+  <p style="color: red"
+     *ngIf="this.studentForm.controls.dateOfBirth.hasError('invalid18')
+          && this.studentForm.controls.dateOfBirth.dirty">Less than 18!</p>
+  <div formGroupName="passwordGroup">
+    <div>
+      Password:
+      <input type="password" formControlName="password">
+    </div>
+    <div>
+      Password confirm:
+      <input type="password" formControlName="passwordConfirm">
+    </div>
+  </div>
+  <p *ngIf="studentForm.controls.passwordGroup.hasError('notSamePassword')
+  && studentForm.controls.passwordGroup.dirty" style="color: red">
+    Not same password!
+  </p>
+  <input type="submit" value="Register" [disabled]="studentForm.invalid">
+</form>

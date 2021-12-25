@@ -20,7 +20,8 @@ export class StockStatusComponent implements OnInit, OnChanges {
   }
 
   stockValueChanged() {
-    this.stockValueChange.emit({id: this.productId,
+    this.stockValueChange.emit({
+      id: this.productId,
       updatedStockValue: this.updatedStockValue});
     this.updatedStockValue = 0;
   }

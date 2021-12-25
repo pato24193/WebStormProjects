@@ -17,7 +17,6 @@
       <td>{{p.price}}</td>
       <td>{{p.stock}}</td>
       <td>
-      <td>
         <app-stock-status [productId]='p.id' [stock]='p.stock'
                           (stockValueChange)='changeStockValue($event)'></app-stock-status>
       </td>

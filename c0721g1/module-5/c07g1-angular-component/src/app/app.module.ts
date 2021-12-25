@@ -9,6 +9,7 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { NgForAndNgIfComponent } from './ng-for-and-ng-if/ng-for-and-ng-if.component';
 import { NgStyleAndNgClassComponent } from './ng-style-and-ng-class/ng-style-and-ng-class.component';
+import { PipeTestComponent } from './pipe-test/pipe-test.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgStyleAndNgClassComponent } from './ng-style-and-ng-class/ng-style-and
     ParentComponent,
     ChildComponent,
     NgForAndNgIfComponent,
-    NgStyleAndNgClassComponent
+    NgStyleAndNgClassComponent,
+    PipeTestComponent
   ],
     imports: [
         BrowserModule,
