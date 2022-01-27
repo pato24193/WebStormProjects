@@ -1,0 +1,22 @@
+<div class="container w-50">
+  <div class="row mb-2">
+    <div class="col-lg-12">
+      <input type="text" class="form-control" (change)="getValue1($event.target.value)">
+    </div>
+  </div>
+  <div class="row mb-2">
+    <div class="col-lg-12">
+      <input type="text" class="form-control" [(ngModel)]="numberTwo">
+    </div>
+  </div>
+  <div class="row mb-2">
+    <div class="col-lg-12 text-center">
+      <button class="btn btn-primary" (click)="sum2Num()">Sum</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      Result: {{result}}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,4 @@
+<p>parent works!</p>
+<app-child [valueFromParent]="valueToChild"
+           (eventEmitter)="receiveFromChild($event)"></app-child>
+<h2 style="color: green">Value from child: {{valueFromChild}}</h2>
