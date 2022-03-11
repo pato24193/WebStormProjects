@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let num = 2;
+    // let dem = 1;
+
+    // C1
+    // while(dem <= 10) {
+    //     console.log(num);
+    //     dem++;
+    //     num += 2;
+    // }
+
+    // C2
+    // while(true) {
+    //     console.log(num);
+    //     dem++;
+    //     num += 2;
+    //
+    //     if (dem === 10) {
+    //         break;
+    //     }
+    // }
+
+    // let num = 2;
+    // let dem = 0;
+    //
+    // for (;true;) {
+    //     console.log(num);
+    //     dem++;
+    //     num += 2;
+    //
+    //     if (dem === 10) {
+    //         break;
+    //     }
+    // }
+
+    // 3. Viết game Đoán số đơn giản từ 1 -> 100:
+    // - Cho trước một số bất kỳ là M.
+    // - Cho phép người dùng nhập vào một số N bất kỳ,
+    //     nếu N trùng khớp với M thì kết thúc chương
+    // trình và hiển thị là "Congratulation!".
+    //     Ngược lại thì báo "Wrong!" và cho người dùng nhập tiếp.
+
+    // Toan (w)
+
+    // let m = 10;
+    //
+    // let n = prompt('Hay doan 1 so: ');
+    //
+    // while(m != n) {
+    //     alert('Wrong');
+    //     n = prompt('Hay doan 1 so: ');
+    // }
+
+    // alert('Congratulation');
+
+    let m = 10;
+    let n;
+
+    do {
+        n = prompt('Hay doan 1 so: ');
+        if (m != n) {
+            alert('Wrong');
+        } else {
+            alert('Congratulation');
+            break;
+        }
+    } while (true);
+</script>
+</body>
+</html>

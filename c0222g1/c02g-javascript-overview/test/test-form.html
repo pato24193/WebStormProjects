@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .background-h3 {
+            background-color: aqua;
+        }
+
+        .background-form {
+            background-color: orange;
+            width: 40%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form class="background-form" action="/link_server" method="post" >
+        <h3 class="background-h3">Đăng ký thông tin covid</h3>
+        <div>
+            <span>Họ và tên</span>
+            <input class="" type="text" name="info_name">
+        </div>
+        <div>
+            <span>Giới tính</span>
+            <input type="radio" name="gender">Nam
+            <input type="radio" name="gender">Nữ
+        </div>
+        <div>
+            <span>Bạn đang sinh sống ở đâu?</span>
+            <select name="city">
+                <option value="dn">Đà Nẵng</option>
+                <option value="hn">Hà Nội</option>
+                <option value="hcm">Hồ Chí Minh</option>
+            </select>
+        </div>
+        <div>
+            <span>Ngày sinh</span>
+            <input type="date" name="dateOfBirth">
+        </div>
+        <div>
+            <p>Trong vòng 21 ngày, bạn có triệu chứng gì dưới đây:</p>
+            <input type="checkbox" name="sick" value="sot">Sốt
+            <input type="checkbox" name="sick" value="ho">Ho
+            <input type="checkbox" name="sick" value="khotho">Khó thở
+        </div>
+        <div>
+            <input type="submit" value="Xác nhận">
+            <input type="reset" value="Khôi phục">
+        </div>
+    </form>
+</body>
+</html>

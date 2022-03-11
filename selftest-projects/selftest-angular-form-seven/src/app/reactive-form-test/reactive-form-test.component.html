@@ -1,0 +1,62 @@
+<p>reactive-form-test works!</p>
+<form (ngSubmit)="getInfoStudent()" [formGroup]="studentForm">
+  <div>
+    Name:
+    <input type="text" formControlName="name">
+  </div>
+  <p style="color: red"
+     *ngIf="studentForm.controls.name.dirty
+      && studentForm.controls.name.hasError('required') ">
+    Please input name!
+  </p>
+  <p style="color: red"
+     *ngIf="studentForm.controls.name.dirty
+      && studentForm.controls.name.hasError('pattern') ">
+    Wrong format name!
+  </p>
+  <div>
+    Date of birth:
+    <input type="date" formControlName="dateOfBirth">
+  </div>
+  <p style="color: red"
+     *ngIf="studentForm.controls.dateOfBirth.dirty
+      && studentForm.controls.dateOfBirth.hasError('required') ">
+    Please input date of birth!
+  </p>
+  <p style="color: red"
+     *ngIf="studentForm.controls.dateOfBirth.dirty
+      && studentForm.controls.dateOfBirth.hasError('not18') ">
+    Date of birth is not 18 years old!
+  </p>
+  <div formGroupName="pwdGroup">
+    <div>
+      Password:
+      <input type="password" formControlName="password">
+    </div>
+    <div>
+      Confirm Password:
+      <input type="password" formControlName="passwordConf">
+    </div>
+  </div>
+  <p style="color: red" *ngIf="
+    studentForm.controls.pwdGroup.dirty &&
+    studentForm.controls.pwdGroup.hasError('notSame')">
+    Password is not same!
+  </p>
+  <div formArrayName="addressArray">
+    <div *ngFor="let _ of this.addressArray.controls; index as i">
+      <div [formGroupName]="i">
+        <div>
+          Street:
+          <input type="text" formControlName="street">
+          City:
+          <input type="text" formControlName="city">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button [disabled]="studentForm.invalid">Register</button>
+    <button type="button" (click)="addAddress()">Add address</button>
+  </div>
+</form>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button onclick="turnOn()">
+    Turn on
+</button>
+<img id="imgLight" src="img/pic_bulboff.gif" alt="">
+<button onclick="turnOff()">
+    Turn off
+</button>
+
+<script>
+
+    // day la xu ly bat den
+    function turnOn() {
+        document.getElementById('imgLight').src = 'img/pic_bulbon.gif';
+    }
+
+    // day la xu ly tat den
+    function turnOff() {
+        document.getElementById('imgLight').src = 'img/pic_bulboff.gif';
+        // dong nay thay doi hinh anh den tat
+    }
+
+</script>
+</body>
+</html>

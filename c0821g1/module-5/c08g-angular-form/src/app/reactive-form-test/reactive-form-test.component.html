@@ -1,0 +1,36 @@
+<p>reactive-form-test works!</p>
+<h2>Register Student (Reactive)</h2>
+<form [formGroup]="studentForm">
+  <div>
+    Name:
+    <input type="text" formControlName="name" />
+  </div>
+  <p style="color: red"
+     *ngIf="studentForm.controls.name.hasError('required')
+      && studentForm.controls.name.dirty">
+    Please input name!
+  </p>
+  <div>
+    Date of birth:
+    <input type="date" formControlName="dateOfBirth" />
+  </div>
+  <p style="color: red"
+    *ngIf="studentForm.controls.dateOfBirth.hasError('required')
+      && studentForm.controls.dateOfBirth.dirty">
+    Please input date of birth!
+  </p>
+  <p style="color: red"
+     *ngIf="studentForm.controls.dateOfBirth.hasError('not18')
+      && studentForm.controls.dateOfBirth.dirty">
+    Date of birth not 18!
+  </p>
+  <div formGroupName="pwGroup">
+    <input type="text" formControlName="password">
+    <p *ngIf="studentForm.get('pwGroup.password').hasError('required')">Required</p>
+    <p *ngIf="studentForm.get('pwGroup.password').hasError('minlength')">Min length</p>
+    <input type="text" formControlName="passwordConfirm">
+  </div>
+  <div>
+    <button (click)="getInfoStudent()" [disabled]="studentForm.invalid">Register</button>
+  </div>
+</form>
