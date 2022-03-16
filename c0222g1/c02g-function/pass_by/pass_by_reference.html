@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function changeValuePassByReference(funcNum) {
+        funcNum[3] = 1;
+    }
+
+    let num = [24, 3, 4, 2, 9];
+    changeValuePassByReference(num);
+    console.log(num);
+
+    // Bao Long: 24
+    // Xuan Truong-: 1
+    // Kim Hieu-: 24
+
+</script>
+</body>
+</html>

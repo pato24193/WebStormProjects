@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 1. TAO MANG 2 CHIEU DUOC NHAP TU NGUOI DUNG
+    // let row = parseInt(prompt('Please input row: '));
+    //
+    // let a = new Array(row);
+    //
+    // for (let i = 0; i < a.length; i++) {
+    //     let col = parseInt(prompt('Please input col: '));
+    //     a[i] = new Array(col);
+    //
+    //     for (let j = 0; j < a[i].length; j++) {
+    //         a[i][j] = parseInt(prompt(`a[${i}][${j}]: `));
+    //         // a[i][j] = parseInt(prompt('a[' + i + '][' + j + ']: '));
+    //     }
+    // }
+    //
+    // console.log(a);
+
+    // 2. TRUY CAP PHAN TU CUA MANG 2 CHIEU
+    // let b = [
+    //     [3, 6, 5],
+    //     [9, 2],
+    //     [23, 2, 12, 43]
+    // ];
+
+    // console.log(b[2][2]);
+    // console.log(b[1][0]);
+
+    // 3. TINH TONG TAT CA PHAN TU TRONG MANG 2 CHIEU
+    // let b = [
+    //     [1, 2, 3],
+    //     [4, 5],
+    //     [6, 7, 8, 9]
+    // ];
+    // let tong = 0;
+    //
+    // for (let i = 0; i < b.length; i++) {
+    //     for (let j = 0; j < b[i].length; j++) {
+    //         tong += b[i][j];
+    //     }
+    // }
+    //
+    // console.log(tong);
+
+    // 4. AP DUNG CAC HAM CHO MANG 2 CHIEU
+    // let b = [
+    //     [1, 2, 3],
+    //     [4, 5],
+    //     [6, 7, 8, 9]
+    // ];
+    //
+    // b.pop();
+    //
+    // console.log(b);
+
+    // Phuc: 1 2 3 4 5
+    // Hao: 1 2 3 4 5
+
+    // 5. AP DUNG FOR-IN, FOR-OF CHO MANG 2 CHIEU
+    let b = [
+        [1, 2, 3],
+        [4, 5],
+        [6, 7, 8, 9]
+    ];
+
+    for (let i of b) {
+        console.log(i);
+    }
+</script>
+</body>
+</html>

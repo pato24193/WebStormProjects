@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script src="js/my_lib.js"></script>
+    <script>
+
+        // 2. In ra màn hình 10 số nguyên tố đầu tiên
+        let count10 = 0;
+        let number = 1;
+
+        while(true) {
+
+            // Check so nguyen to
+            if(isPrimeNumber(number)) {
+                console.log(number);
+                count10++;
+            }
+
+            if (count10 === 10) {
+                break;
+            }
+
+            number++;
+        }
+
+    </script>
+</body>
+</html>
