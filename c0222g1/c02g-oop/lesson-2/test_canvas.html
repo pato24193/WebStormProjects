@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .abc {
+            color: #a929d0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+    <script>
+        let canvasObj = document.getElementById("myCanvas");
+        let page2d = canvasObj.getContext("2d");
+
+        // // 1. Tuong tuong
+        // page2d.arc(50, 50, 40, 0, 2 * Math.PI);
+        // // 2. Ve vien
+        // // page2d.strokeStyle = "red";
+        // page2d.stroke();
+        // // 3. Chon mau
+        // page2d.fillStyle = "green";
+        // // 4. To mau
+        // page2d.fill();
+
+        // 1. Tuong tuong
+        page2d.rect(50, 50, 100, 40);
+
+        // 2. Ve vien
+        page2d.stroke();
+
+        // 3. Chon mau
+        page2d.fillStyle = "#A929D0FF";
+
+        // 4. To mau
+        page2d.fill();
+    </script>
+</body>
+</html>

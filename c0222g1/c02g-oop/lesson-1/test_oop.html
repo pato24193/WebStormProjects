@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Student {
+        constructor(name, dateOfBirth, gender) {
+            this.name = name;
+            this.dateOfBirth = dateOfBirth;
+            this.gender = gender;
+        }
+
+        // Ham o day khong co tu khoa function
+        eating(food) {
+            console.log('Hoc vien ' + this.name + ' dang an ' + food);
+            this.drinking();
+        }
+
+        drinking() {
+            console.log('Hoc vien ' + this.name + ' dang uong nuoc ngot');
+        }
+    }
+
+    let studentObj1 = new Student('Hao', '2000-03-18', 'Male');
+    let studentObj2 = new Student('Duy Trung', '2004-03-18', 'Male');
+
+    console.log(studentObj1);
+    // studentObj1.eating('com');
+    // studentObj2.eating('ca');
+
+</script>
+</body>
+</html>

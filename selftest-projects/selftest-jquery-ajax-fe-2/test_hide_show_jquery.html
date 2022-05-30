@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="text">If you click on the "Hide" button, I will disappear.</p>
+<button id="btnHide">Hide</button>
+<button id="btnShow">Show</button>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#btnHide").click(function() {
+            $("#text").hide();
+        });
+
+        $("#btnShow").click(function() {
+            $("#text").show();
+        });
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .abc {
+            color: #ae23c6;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+    <script>
+        // let canvasObj = document.getElementById("myCanvas");
+        // let paintPage = canvasObj.getContext("2d");
+        //
+        // paintPage.arc(100, 100, 70, 0, 2 * Math.PI);
+        // paintPage.stroke();
+        // paintPage.fillStyle = "blue";
+        // paintPage.fill();
+
+        let canvasObj = document.getElementById("myCanvas");
+        let pagePaint = canvasObj.getContext("2d");
+
+        // pagePaint.rect(100, 100, 200, 50);
+        // pagePaint.stroke();
+        pagePaint.fillStyle = "#AE23C6FF";
+        pagePaint.fill();
+
+    </script>
+</body>
+</html>

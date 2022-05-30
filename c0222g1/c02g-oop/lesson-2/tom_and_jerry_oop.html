@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Animal {
+        constructor(name, weight, speed) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+        }
+
+        // 4. Truu tuong
+        growl();
+    }
+
+    // a. Ke thua
+    class Rat extends Animal {
+        constructor(name, weight, speed, status) {
+            super(name, weight, speed);
+            this._status = status; // private
+        }
+
+        // b. Dong goi
+        getStatus() {
+            return this._status;
+        }
+
+        setStatus(status) {
+            this._status = status;
+        }
+
+        // c. Da dinh
+        growl() {
+            console.log("Chit, chit");
+        }
+    }
+
+    // a. Ke thua
+    class Cat extends Animal {
+        constructor(name, weight, speed) {
+            super(name, weight, speed);
+        }
+
+        // c. Da hinh
+        growl() {
+            console.log("Meow, meow");
+        }
+    }
+
+    let jerry = new Rat("Jerry", 32, 1, "song");
+    console.log(jerry);
+    // let tom = new Cat("Tom", 32, 5);
+
+    let jerry = null;
+    // let jerry2 = new Rat("Jerry", 32, 1, "song");
+    // jerry = jerry2; // NullPointerException
+    jerry.growl();
+</script>
+</body>
+</html>
