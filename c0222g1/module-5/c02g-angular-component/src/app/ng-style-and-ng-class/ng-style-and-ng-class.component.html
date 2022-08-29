@@ -1,0 +1,5 @@
+<p>ng-style-and-ng-class works!</p>
+<input type="text" [(ngModel)]="colorStr">
+<br>
+<p [ngStyle]="{color: colorStr, background: 'yellow'}">Hello C02G1</p>
+<p [style.color]="colorStr" [ngClass]="classStr">Hello C02G1 (2)</p>

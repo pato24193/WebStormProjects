@@ -1,0 +1,22 @@
+{
+  "studentList": [
+    {
+      "id": 983,
+      "name": "Nguyen Van An a",
+      "dateOfBirth": "2000-06-12",
+      "gender": 1
+    },
+    {
+      "id": 231,
+      "name": "Do Hung Long b",
+      "dateOfBirth": "1999-07-12",
+      "gender": 1
+    },
+    {
+      "id": 652,
+      "name": "Tran Cong Khanh b",
+      "dateOfBirth": "2001-08-14",
+      "gender": 0
+    }
+  ]
+}
