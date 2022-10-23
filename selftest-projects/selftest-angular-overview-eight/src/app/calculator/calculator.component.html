@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 m-lg-auto">
+      <div class="mb-3">
+        <label for="number1" class="form-label">Number 1</label>
+        <input type="text" class="form-control" id="number1" [value]="number1"
+               (change)="updateValueNum1($event.target.value)">
+      </div>
+      <div class="mb-3">
+        <label for="number2" class="form-label">Number 2</label>
+        <input type="text" class="form-control" id="number2" [(ngModel)]="number2">
+      </div>
+      <button type="button" class="btn btn-primary" (click)="sum2Num()">Submit</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>{{result2Num}}</h2>
+    </div>
+  </div>
+</div>
