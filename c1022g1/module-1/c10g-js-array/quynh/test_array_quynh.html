@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // C1
+    // let a = Array();
+    // C2
+    let a = [];
+
+    let lenA = +prompt('Nhap do dai mang: ');
+
+    // Nhap vao
+    for (let i = 0; i < lenA; i++) {
+        a[i] = +prompt('Nhap ' + i);
+    }
+
+    // console.log(a);
+
+    // Hien thi ra
+    let sum = 0;
+    for (let k = 0; k < lenA; k++) {
+        sum += a[k];
+    }
+
+    console.log(sum);
+</script>
+</body>
+</html>

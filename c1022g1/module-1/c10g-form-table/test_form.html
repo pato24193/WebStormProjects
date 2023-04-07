@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/link_server" method="get" >
+        <div>
+            <label for="inputName" >Họ và tên</label>
+            <input type="text" id="inputName" name="fullName"/>
+        </div>
+
+        <div>
+            <label for="">Giới tính</label>
+            <input type="radio" id="radioNam" name="gender" value="1">
+            <label for="radioNam">Nam</label>
+            <input type="radio" id="radioNu" name="gender" value="0">
+            <label for="radioNu">Nữ</label>
+        </div>
+
+        <div>
+            <label for="">Bạn đang sinh sống ở đâu</label>
+            <select>
+                <option value="">Đà Nẵng</option>
+                <option value="">Hà Nội</option>
+                <option value="">Hồ Chí Minh</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="">Ngày sinh</label>
+            <input type="date">
+        </div>
+
+        <p>
+            Trong vòng 21 ngày, bạn có triệu chứng gì dưới đây:
+        </p>
+
+        <div>
+            <input type="checkbox">
+            <label>Sốt</label>
+            <input type="checkbox">
+            <label>Ho</label>
+            <input type="checkbox">
+            <label>Khó thở</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Xác nhận">
+            <input type="reset" value="Khôi phục">
+        </div>
+    </form>
+</body>
+</html>

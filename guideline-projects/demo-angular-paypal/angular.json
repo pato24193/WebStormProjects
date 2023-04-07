@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "demo-angular-paypal"
+    }
+  },
+  "defaultProject": "demo-angular-paypal",
+  "cli": {
+    "analytics": "b1e256dc-0006-4158-9d4a-3421f1a88197"
+  }
 }

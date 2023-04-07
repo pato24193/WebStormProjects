@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Animal {
+        constructor(name, weight, speed) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+        }
+
+        // 4. Tinh truu tuong
+        // growl();
+    }
+
+    // 1. Tinh ke thua
+    class Rat extends Animal {
+        constructor(name, weight, speed, status) {
+            super(name, weight, speed);
+            // 3. Tinh dong goi
+            this._status = status; // private
+        }
+
+        // 3. Tinh dong goi
+        getStatus() {
+            return this._status;
+        }
+
+        // 3. Tinh dong goi
+        setStatus(status) {
+            this._status = status;
+        }
+
+        // 3. Tinh da hinh
+        growl() {
+            console.log("Chit, chit");
+        }
+    }
+
+    // 1. Tinh ke thua
+    class Cat extends Animal {
+        constructor(name, weight, speed) {
+            super(name, weight, speed);
+        }
+
+        // 3. Tinh da hinh
+        growl() {
+            console.log("Meow, meow");
+        }
+    }
+
+    class Bear extends Animal {
+        constructor(name, weight, speed, strength) {
+            super(name, weight, speed);
+            this.strength = strength;
+        }
+
+        growl() {
+            super.growl();
+        }
+    }
+
+    let ratObj = new Rat("jerry", 100, 50, "song");
+    ratObj.setStatus("chet")
+    console.log(ratObj.getStatus());
+
+</script>
+</body>
+</html>

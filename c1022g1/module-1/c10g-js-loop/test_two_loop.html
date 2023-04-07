@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // let count = 0;
+    // let n = +prompt('Input n');
+    //
+    // for (let i = 1; i <= n; i++) {
+    //     if (n % i == 0) {
+    //         count++;
+    //     }
+    // }
+    //
+    // if (count == 2) {
+    //     console.log('So nguyen to');
+    // } else {
+    //     console.log('Khong phai snt')
+    // }
+// let start = ....;
+
+    // C1
+    let countSNT = 0;
+    let n = 1;
+    while (countSNT < 20) {
+
+        // Xac dinh so nguyen to
+        let count = 0;
+        for (let i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                count++;
+            }
+        }
+
+        if (count == 2) {
+            console.log(n);
+            countSNT++;
+        }
+
+        // <---Xac dinh so nguyen to
+
+        n++;
+    }
+
+    // C2
+    for (let countSNT = 0, n = 1; countSNT < 20; n++) {
+
+        // Xac dinh so nguyen to
+        let count = 0;
+        for (let i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                count++;
+            }
+        }
+
+        if (count == 2) {
+            console.log(n);
+            countSNT++;
+        }
+
+        // <---Xac dinh so nguyen to
+
+    }
+    // let end = ....;
+
+</script>
+</body>
+</html>

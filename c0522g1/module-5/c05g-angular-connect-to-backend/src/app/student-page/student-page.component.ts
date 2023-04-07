@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Student} from '../student';
 import {StudentService} from '../student.service';
 
@@ -15,7 +15,13 @@ export class StudentPageComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.studentList = this.studentService.findAll();
+    this.studentService.findAll().subscribe(value => {
+      this.studentList = value;
+    }, error => {
+      console.log(error);
+    }, () => {
+      console.log('Complete');
+    });
   }
 
 }

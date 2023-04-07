@@ -13,7 +13,7 @@ export class PaypalComponent implements OnInit {
       currency: 'USD',
       value: '100.00',
       onApprove: (details) => {
-        alert('Transaction successfully!')
+        alert('Transaction successfully!');
       }
     });
   }

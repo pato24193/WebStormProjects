@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="js/jquery-3.6.3.min.js"></script>
+<script>
+    const url = 'https://immi.homeaffairs.gov.au/what-we-do/whm-program/status-of-country-caps';
+    const html = await (await fetch(url)).text(); // html as text
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    console.log(doc);
+</script>
+</body>
+</html>

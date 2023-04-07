@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = new Array(5);
+
+    for (let i = 0; i < a.length; i++) {
+        // a[i] = +prompt('Nhap vao a[' + i + ']: ');
+        a[i] = +prompt(`Nhap vao a[${i}]:`);
+    }
+
+    let v = +prompt('Input v: ');
+
+    // C1
+    // if (a.indexOf(v) !== -1) {
+    //     console.log('V is array...');
+    // } else {
+    //     console.log('V is not array');
+    // }
+
+    // console.log(a.indexOf(v) !== -1 ? 'V is array...' : 'V is not array');
+
+    // C2
+    let flag = false;
+
+    // [1, 2, 3, 4, 5]
+    // v = 4
+    for (let i = 0; i < a.length; i++) {
+        if (v == a[i]) {
+            console.log('V is in array');
+        } else {
+            console.log('V is not...')
+        }
+    }
+
+    // console.log(flag ? 'V is in array' : 'V is not...');
+    // if (flag) {
+    //     console.log('V is in array');
+    // } else {
+    //     console.log('V is not...')
+    // }
+</script>
+</body>
+</html>

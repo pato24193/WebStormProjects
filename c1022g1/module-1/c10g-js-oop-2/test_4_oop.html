@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    class Person {
+        constructor(name, age, gender) {
+            this.name = name;
+            this.age = age;
+            this.gender = gender;
+        }
+
+        eat() {
+            console.log(this.name + " eat more");
+        }
+    }
+
+    class Facebook extends Person {
+
+        constructor(name, age, gender, email, dateOfBirth) {
+            super(name, age, gender);
+            this.email = email;
+            this._dateOfBirth = dateOfBirth;
+        }
+
+        getDateOfBirth(role) {
+            if (role === "admin") {
+                return this._dateOfBirth;
+            } else {
+                return null;
+            }
+        }
+
+        setDateOfBirth(dateOfBirth) {
+            this._dateOfBirth = dateOfBirth;
+        }
+
+        post() {
+            //....
+        }
+    }
+
+    let a = new Person("Nguyen Van An", 25, "Male");
+    let b = new Facebook(
+            "Ngoc Truong", 20, "Male", "ngoctruong@gmail.com", "2002-11-22");
+    // console.log(b.name);
+    console.log(b.getDateOfBirth("admin"));
+
+</script>
+</body>
+</html>
