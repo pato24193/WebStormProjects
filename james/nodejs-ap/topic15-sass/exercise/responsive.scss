@@ -1,0 +1,75 @@
+@mixin grid-content-child {
+  background-color: #33b5e5;
+  border: none;
+  width: 100%;
+  height: 15%;
+}
+
+@mixin custom-height($height) {
+  height: $height;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid-wrapper {
+  overflow: auto;
+  position: relative;
+  height: 250px;
+}
+
+.grid-content {
+  width: 8.33%;
+  margin: 0;
+  border-right: 1px solid grey;
+  height: 100%;
+  float: left;
+  background-color: #000000;
+  background-color: #f1f1f1;
+
+  .grid-content-child-bot {
+    @include grid-content-child;
+    margin-bottom:10px;
+  }
+
+  .grid-content-child-no-bot {
+    @include grid-content-child;
+  }
+}
+
+.background-white {
+  background-color: #fff;
+}
+
+.background-white-no-border {
+  @extend .background-white;
+  border: none;
+}
+
+.background-white-right-border {
+  @extend .background-white;
+  border-right:1px solid #000000;
+}
+
+.background-white-right-left-border {
+  @extend .background-white-right-border;
+  border-left:1px solid #000000;
+}
+
+.height-90 {
+  @include custom-height(90px);
+}
+
+.height-230 {
+  @include custom-height(230px);
+}
+
+.height-50 {
+  @include custom-height(50px);
+}
+
+.height-370 {
+  @include custom-height(370px);
+}
+
