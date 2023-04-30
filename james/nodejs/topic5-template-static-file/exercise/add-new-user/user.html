@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="user_server.js" method="post">
+        <div>
+            <label for="username">Name</label>
+            <input type="text" id="username" name="username" />
+        </div>
+        <div>
+            <label for="dateOfBirth">Date of birth</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" />
+        </div>
+        <div>
+            <label for="genderMale">Male</label>
+            <input type="radio" id="genderMale" name="gender" value="1"/>
+            <label for="genderFemale">Female</label>
+            <input type="radio" id="genderFemale" name="gender" value="0" />
+        </div>
+        <div>
+            <button>Register</button>
+        </div>
+    </form>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Date of birth</th>
+        </tr>
+        {listUsers}
+    </table>
+</body>
+</html>
